@@ -1,0 +1,50 @@
+{
+    "db_letter": "0",
+    "image": "images/landscape/horizontal-integration-lvl1.png",
+    "images": [
+        "images/landscape/horizontal-integration-lvl1.png",
+        "images/landscape/horizontal-integration-lvl2.png",
+        "images/landscape/horizontal-integration-lvl3.png"
+    ],
+    "name": "Hangar",
+    "category": "production",
+    "cost": 100050,
+    "robotsNeeded": 39.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Jumbo jet",
+            "image": "images/resources/jumbojet2.png",
+            "db_letter": 95,
+            "transportation": 2000,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury jet",
+            "image": "images/resources/private-jet.png",
+            "db_letter": 96,
+            "transportation": 1000,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        },
+        {
+            "name": "Single engine plane",
+            "image": "images/resources/single-engine.png",
+            "db_letter": 97,
+            "transportation": 100,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 29.0,
+    "hours": 3.0,
+    "wages": 759.0000000000001
+}

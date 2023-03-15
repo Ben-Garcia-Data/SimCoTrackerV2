@@ -1,0 +1,59 @@
+{
+    "db_letter": "M",
+    "image": "images/landscape/mine-lvl1.png",
+    "images": [
+        "images/landscape/mine-lvl1.png",
+        "images/landscape/mine-lvl2.png"
+    ],
+    "name": "Mine",
+    "category": "production",
+    "cost": 24150,
+    "robotsNeeded": 10.5,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Minerals",
+            "image": "images/resources/minerals.png",
+            "db_letter": 14,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Bauxite",
+            "image": "images/resources/bauxite.png",
+            "db_letter": 15,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Gold ore",
+            "image": "images/resources/gold-ore.png",
+            "db_letter": 68,
+            "transportation": 10,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Iron ore",
+            "image": "images/resources/iron-ore.png",
+            "db_letter": 42,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 7.0,
+    "hours": 4.0,
+    "wages": 276.0
+}

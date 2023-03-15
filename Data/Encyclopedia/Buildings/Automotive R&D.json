@@ -1,0 +1,30 @@
+{
+    "db_letter": "a",
+    "image": "images/landscape/race-track-lvl1.png",
+    "images": [
+        "images/landscape/race-track-lvl1.png",
+        "images/landscape/race-track-lvl2.png",
+        "images/landscape/race-track-lvl3.png"
+    ],
+    "name": "Automotive R&D",
+    "category": "research",
+    "cost": 138000,
+    "robotsNeeded": 27.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Automotive research",
+            "image": "images/resources/automotive-research.png",
+            "db_letter": 58,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 40.0,
+    "hours": 6.0,
+    "wages": 552.0
+}
