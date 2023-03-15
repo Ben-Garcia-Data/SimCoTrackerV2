@@ -1,0 +1,76 @@
+{
+    "name": "Pasta",
+    "image": "images/resources/pasta.png",
+    "db_letter": 128,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Flour",
+                "image": "images/resources/flour.png",
+                "db_letter": 133,
+                "transportation": 0.1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 2
+        },
+        {
+            "resource": {
+                "name": "Eggs",
+                "image": "images/resources/eggs.png",
+                "db_letter": 9,
+                "transportation": 0.1,
+                "retailable": true,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 2
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "k",
+        "image": "images/landscape/food-processing-lvl1.png",
+        "images": [
+            "images/landscape/food-processing-lvl1.png",
+            "images/landscape/food-processing-lvl2.png",
+            "images/landscape/food-processing-lvl3.png"
+        ],
+        "name": "Food processing plant",
+        "category": "production",
+        "cost": 86250,
+        "robotsNeeded": 16.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Lasagna",
+            "image": "images/resources/lasagna.png",
+            "db_letter": 130,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 19.274304373475996,
+    "baseSalary": 379.50000000000006,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

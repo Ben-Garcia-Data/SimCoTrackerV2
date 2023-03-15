@@ -1,0 +1,99 @@
+{
+    "name": "Rocket engine",
+    "image": "images/resources/rocket-engine.png",
+    "db_letter": 86,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Steel",
+                "image": "images/resources/steel.png",
+                "db_letter": 43,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 20
+        },
+        {
+            "resource": {
+                "name": "High grade e-comps",
+                "image": "images/resources/high-grade-e-components.png",
+                "db_letter": 79,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 8
+        },
+        {
+            "resource": {
+                "name": "Aluminium",
+                "image": "images/resources/aluminium.png",
+                "db_letter": 18,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 10
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "D",
+        "image": "images/landscape/propulsion-2-lvl1.png",
+        "images": [
+            "images/landscape/propulsion-2-lvl1.png",
+            "images/landscape/propulsion-2-lvl2.png",
+            "images/landscape/propulsion-2-lvl3.png"
+        ],
+        "name": "Propulsion factory",
+        "category": "production",
+        "cost": 103500,
+        "robotsNeeded": 31.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Orbital booster",
+            "image": "images/resources/orbital-booster.png",
+            "db_letter": 92,
+            "transportation": 100,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        },
+        {
+            "name": "Starship",
+            "image": "images/resources/starship.png",
+            "db_letter": 93,
+            "transportation": 100,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 0.3027887438560918,
+    "baseSalary": 621.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

@@ -1,0 +1,75 @@
+{
+    "name": "Gold ore",
+    "image": "images/resources/gold-ore.png",
+    "db_letter": 68,
+    "transportation": 10,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Power",
+                "image": "images/resources/power.png",
+                "db_letter": 1,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 80
+        },
+        {
+            "resource": {
+                "name": "Water",
+                "image": "images/resources/water.png",
+                "db_letter": 2,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 2
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "M",
+        "image": "images/landscape/mine-lvl1.png",
+        "images": [
+            "images/landscape/mine-lvl1.png",
+            "images/landscape/mine-lvl2.png"
+        ],
+        "name": "Mine",
+        "category": "production",
+        "cost": 24150,
+        "robotsNeeded": 10.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Golden bars",
+            "image": "images/resources/golden-bars.png",
+            "db_letter": 69,
+            "transportation": 1000,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 10,
+    "producedAnHour": 54.90311532211434,
+    "baseSalary": 276.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

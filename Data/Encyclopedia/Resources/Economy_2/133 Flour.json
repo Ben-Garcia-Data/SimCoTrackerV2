@@ -1,0 +1,83 @@
+{
+    "name": "Flour",
+    "image": "images/resources/flour.png",
+    "db_letter": 133,
+    "transportation": 0.1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Grain",
+                "image": "images/resources/grain.png",
+                "db_letter": 6,
+                "transportation": 0.1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 15
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "i",
+        "image": "images/landscape/mill-lvl1.png",
+        "images": [
+            "images/landscape/mill-lvl1.png",
+            "images/landscape/mill-lvl2.png",
+            "images/landscape/mill-lvl3.png"
+        ],
+        "name": "Mill",
+        "category": "production",
+        "cost": 27600,
+        "robotsNeeded": 16.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Dough",
+            "image": "images/resources/dough.png",
+            "db_letter": 137,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Pasta",
+            "image": "images/resources/pasta.png",
+            "db_letter": 128,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Samosa",
+            "image": "images/resources/samosas.png",
+            "db_letter": 143,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 0.1,
+    "producedAnHour": 83.31044598890585,
+    "baseSalary": 379.50000000000006,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}
