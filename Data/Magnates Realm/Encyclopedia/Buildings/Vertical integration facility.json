@@ -1,0 +1,40 @@
+{
+    "db_letter": "9",
+    "image": "images/landscape/vertical-integration-lvl1.png",
+    "images": [
+        "images/landscape/vertical-integration-lvl1.png",
+        "images/landscape/vertical-integration-lvl2.png",
+        "images/landscape/vertical-integration-lvl3.png"
+    ],
+    "name": "Vertical integration facility",
+    "category": "production",
+    "cost": 113850,
+    "robotsNeeded": 39.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Sub-orbital rocket",
+            "image": "images/resources/sub-orbital-rocket2.png",
+            "db_letter": 91,
+            "transportation": 20,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        },
+        {
+            "name": "BFR",
+            "image": "images/resources/BFR.png",
+            "db_letter": 94,
+            "transportation": 2000,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 33.0,
+    "hours": 3.0,
+    "wages": 759.0000000000001
+}
