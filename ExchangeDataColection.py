@@ -6,12 +6,16 @@ import shutil
 import math
 
 import sqlite3
-from sqlalchemy import Column, Integer, Unicode, UnicodeText, String
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
 
 from Classes import Sale
+
+def generateDBConnection(realm):
+    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm} Realm")
+    exchange_Dir = os.path.join(data_Dir, "Exchange")
+    path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
+    connection = sqlite3.connect(path)
+    cursor = connection.cursor()
+    return cursor, connection
 
 
 def TakeExchangeSnapshot(realm):
@@ -72,6 +76,7 @@ def TakeExchangeSnapshot(realm):
 
         # Request data of filtered product list via DB number & save that data into 'latest'
         print(url, name)
+        t2 = time.time()
         try:
             response = requests.get(url)
             newSnapshot = response.json()
@@ -80,7 +85,7 @@ def TakeExchangeSnapshot(realm):
             print(response)
             time.sleep(10)
             continue
-
+        t3 = time.time()
         # print(newSnapshot)
 
         json_object = json.dumps(newSnapshot, indent=4)
@@ -231,18 +236,19 @@ def TakeExchangeSnapshot(realm):
         # THEN we have to difference partial sales."""
 
         def reportAndSleep():
-            print("Found", len(sales), "sales, took", time.time() - t1, "seconds.")
+            completeTime = time.time() - t1
+            fetchTime = t3 - t2
+            computeTime = completeTime - fetchTime
+
+            print("Found", len(sales), "sales, took",str(completeTime)[:8] , "seconds.", str(fetchTime)[:8],"to get data,",str(computeTime)[:8],"to compute." )
             print("")
-            time.sleep(1)
+            time.sleep(0.2)
 
         if len(sales) == 0:
             reportAndSleep()
             # Skip writing to appending to the file as we have nothing to say!
             continue
 
-        # This is the point where instead of using text files to record our JSON we should be using a database. Would
-        # we rather store all recorded sales in RAM somehow (massive list of tuples & payloads) or open/close the
-        # database frequently?
         def CreateNewTable():
             path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
             con = sqlite3.connect(path)
@@ -253,16 +259,16 @@ def TakeExchangeSnapshot(realm):
         def appendRecordtoDatabase(record):
             # print(record.__dict__)
             # print(record.SQLInput())
-            path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
-            con = sqlite3.connect(path)
-            cur = con.cursor()
-            cur.execute(record.SQLInput())
+            cur, con = generateDBConnection(realm)
+            cur.execute('INSERT INTO sales (productID,quantity,price,quality,sale_Time,ID,SumPrice,sellerName) VALUES (?,?,?,?,?,?,?,?)', record.SQLInput())
             con.commit()
 
         # CreateNewTable()
         for i in sales:
             appendRecordtoDatabase(i)
 
+
+        # Archived Code- doesn't use a database.
         """
         # print("Writing to file")
         filePath = os.path.join(exchange_Dir,"Historical", f"{name}_ All recorded sales.json")
@@ -279,6 +285,8 @@ def TakeExchangeSnapshot(realm):
         reportAndSleep()
         # print("Finished writing to file")
 
-
-# TakeExchangeSnapshot("Entrepreneurs")
-TakeExchangeSnapshot("Magnates")
+for i in range(200):
+    print("Loop", i)
+    TakeExchangeSnapshot("Entrepreneurs")
+    TakeExchangeSnapshot("Magnates")
+    time.sleep(60)

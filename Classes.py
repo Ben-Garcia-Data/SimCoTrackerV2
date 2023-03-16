@@ -89,7 +89,6 @@ class Sale:
                  quality,
                  sale_Time,
                  ID
-
                  ):
 
         self.productID = productID
@@ -97,10 +96,10 @@ class Sale:
         self.quantity = quantity
         self.price = price
         self.quality = quality
-        self.time = sale_Time
+        self.time = int(sale_Time)
         self.ID = ID
 
-        self.SumPrice = quantity * price
+        self.SumPrice = int(quantity * price)
         self.sellerName = seller['company'].replace(" ","_")
 
         # self.productName = productID
@@ -111,16 +110,15 @@ class Sale:
         return f"{self.quantity} of Q{self.quality} #{self.productID} for {self.price} each sold by {self.sellerName}."
 
     def SQLInput(self):
-        s = f"""
-        INSERT INTO sales (productID,quantity,price,quality,sale_Time,ID,SumPrice,sellerName) VALUES (
-          '{self.productID}',
-          '{self.quantity}',
-          '{self.price}',
-          '{self.quality}',
-          '{self.time}',
-          '{self.ID}',
-          '{self.SumPrice}',
-          '{self.sellerName}'
-        ); 
-        """
+        s = (
+          self.productID,
+          self.quantity,
+          self.price,
+          self.quality,
+          self.time,
+          self.ID,
+          self.SumPrice,
+          self.sellerName
+        )
+
         return s

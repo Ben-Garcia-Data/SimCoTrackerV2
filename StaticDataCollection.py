@@ -1,8 +1,19 @@
+import math
 import os
 import requests
 import time
 import json
 
+import sqlite3
+
+
+def generateDBConnection(realm):
+    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm} Realm")
+    exchange_Dir = os.path.join(data_Dir, "Exchange")
+    path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
+    connection = sqlite3.connect(path)
+    cursor = connection.cursor()
+    return cursor, connection
 
 def UpdateEncyclopedia():
 
@@ -35,6 +46,7 @@ def UpdateEncyclopedia():
     # I've decided to go for a 'complete' version of the encyclopedia (using the finished realm) for now but IF I chose
     # to use multiples realm the commented out code below would do this.
     realmID = 0 #Forces the complete encyclopedia
+    realm = "Entrepreneurs"
 
     # URL's commonly used
     base_URL = f"https://www.simcompanies.com/api/v4/en/{realmID}"
@@ -225,10 +237,59 @@ def UpdateEncyclopedia():
         with open(entrepeneurResourcesPath, "w") as outfile:
             outfile.write(json_object)
 
+    def CalculateEndpointFrequencies(realm):
+
+        # Load our list of all resources
+        path = os.path.join(resources_Dir,"Resource_List.json")
+        f = open(path)
+        data = json.load(f)
+        f.close()
+        cur, con = generateDBConnection(f"{realm}")
+
+        relativeFrequencies = []
+
+        for i in data:
+            # print(i['name'])
+            # Get a list of quantities for sales of the relevent productID
+            cur.execute(f'SELECT quantity FROM sales WHERE productID = {i["db_letter"]};')
+            rows = cur.fetchall()
+            rows = [x[0] for x in rows]
+            # print(rows)
+            # print(rows2)
+            d = {'summed': sum(rows),
+                 'count': len(rows),
+                 'ProductID': i["db_letter"],
+                 }
+            relativeFrequencies.append(d)
+
+        cur.close()
+
+        sortedRelFreqs = sorted(relativeFrequencies, key=lambda d: d['count'], reverse=True)
+
+        maxCount = sortedRelFreqs[0]['count']
+        minTime = 5
+
+
+        for i in sortedRelFreqs:
+            if i['count'] == 0:
+                i['TargetFreq'] = 999999999
+                continue
+            i['TargetFreq'] = (((minTime*maxCount/i['count'])-minTime)*0.8)+minTime
+            cur, con = generateDBConnection(realm)
+            cur.execute(
+                'INSERT INTO frequencies (ProductID,TargetFreq,count,summed) VALUES (?,?,?,?)',(i['ProductID'],i['TargetFreq'],i['count'],i['summed']))
+            con.commit()
+
+
+
+
     # UpdateResources()
     # UpdateBuildings()
     # UpdateExchangeBase()
-    CreateEntrepeneurVersions()
+    # CreateEntrepeneurVersions()
+    CalculateEndpointFrequencies("Entrepreneurs")
+    CalculateEndpointFrequencies("Magnates")
+
 
 
 UpdateEncyclopedia()
