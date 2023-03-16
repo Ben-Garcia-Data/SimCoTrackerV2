@@ -1,48 +1,8 @@
 [
     {
-        "id": 54862326,
-        "kind": 125,
-        "quantity": 311,
-        "quality": 0,
-        "price": 19.8,
-        "seller": {
-            "id": 2975856,
-            "company": "FREEHOLD HOLDINGS",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/95b47bc37d71e9ed7c764230e06aa47e5bfe305a.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "856586"
-        },
-        "posted": "2023-03-16T01:25:14.156208+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54869365,
-        "kind": 125,
-        "quantity": 159,
-        "quality": 0,
-        "price": 19.8,
-        "seller": {
-            "id": 2941679,
-            "company": "Funcion asociados",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "3dd46a"
-        },
-        "posted": "2023-03-16T03:26:39.121031+00:00",
-        "fees": 95
-    },
-    {
         "id": 54901629,
         "kind": 125,
-        "quantity": 1065,
+        "quantity": 536,
         "quality": 0,
         "price": 19.8,
         "seller": {
@@ -57,7 +17,27 @@
             "ip": "4126f9"
         },
         "posted": "2023-03-16T15:27:30.098185+00:00",
-        "fees": 633
+        "fees": 0
+    },
+    {
+        "id": 54919691,
+        "kind": 125,
+        "quantity": 364,
+        "quality": 0,
+        "price": 19.8,
+        "seller": {
+            "id": 2993621,
+            "company": "FENDI HOLDING SDN B.H.D",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "d4897b"
+        },
+        "posted": "2023-03-16T21:02:09.500790+00:00",
+        "fees": 217
     },
     {
         "id": 54855717,
@@ -300,6 +280,26 @@
         "fees": 322
     },
     {
+        "id": 54917428,
+        "kind": 125,
+        "quantity": 1942,
+        "quality": 0,
+        "price": 21.0,
+        "seller": {
+            "id": 2585683,
+            "company": "DENIZ GROUP",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "3dd045"
+        },
+        "posted": "2023-03-16T20:23:39.644295+00:00",
+        "fees": 1224
+    },
+    {
         "id": 54554269,
         "kind": 125,
         "quantity": 514,
@@ -438,26 +438,6 @@
         },
         "posted": "2023-03-14T21:11:20.860624+00:00",
         "fees": 144
-    },
-    {
-        "id": 54792287,
-        "kind": 125,
-        "quantity": 1673,
-        "quality": 1,
-        "price": 23.0,
-        "seller": {
-            "id": 2586368,
-            "company": "ASINCO",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "7292e4"
-        },
-        "posted": "2023-03-14T22:18:07.793908+00:00",
-        "fees": 39
     },
     {
         "id": 54778511,

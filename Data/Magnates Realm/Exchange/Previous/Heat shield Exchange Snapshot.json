@@ -2,7 +2,7 @@
     {
         "id": 54764903,
         "kind": 87,
-        "quantity": 224,
+        "quantity": 144,
         "quality": 0,
         "price": 398.0,
         "seller": {
@@ -722,7 +722,7 @@
     {
         "id": 54911093,
         "kind": 87,
-        "quantity": 153,
+        "quantity": 63,
         "quality": 1,
         "price": 530.0,
         "seller": {
@@ -762,7 +762,7 @@
     {
         "id": 54905924,
         "kind": 87,
-        "quantity": 226,
+        "quantity": 347,
         "quality": 1,
         "price": 535.0,
         "seller": {
@@ -776,28 +776,8 @@
             "courseId": null,
             "ip": "f0b5f8"
         },
-        "posted": "2023-03-16T19:44:44.375764+00:00",
-        "fees": 2312
-    },
-    {
-        "id": 54591123,
-        "kind": 87,
-        "quantity": 434,
-        "quality": 2,
-        "price": 540.0,
-        "seller": {
-            "id": 2517769,
-            "company": "Deutsche Hanse",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/38fd2fa30bbe1e459f200a6b44fc97b9cc742069.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "b1f489"
-        },
-        "posted": "2023-03-16T10:35:51.720698+00:00",
-        "fees": 0
+        "posted": "2023-03-16T22:19:56.736358+00:00",
+        "fees": 4255
     },
     {
         "id": 54577758,
@@ -818,26 +798,6 @@
         },
         "posted": "2023-03-11T21:46:59.575065+00:00",
         "fees": 925
-    },
-    {
-        "id": 54545000,
-        "kind": 87,
-        "quantity": 645,
-        "quality": 2,
-        "price": 545.0,
-        "seller": {
-            "id": 1925153,
-            "company": "MV Trade",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "1b53cb"
-        },
-        "posted": "2023-03-11T08:22:38.858329+00:00",
-        "fees": 0
     },
     {
         "id": 54677860,
@@ -882,7 +842,7 @@
     {
         "id": 54909506,
         "kind": 87,
-        "quantity": 1370,
+        "quantity": 1330,
         "quality": 3,
         "price": 555.0,
         "seller": {
@@ -942,7 +902,7 @@
     {
         "id": 54890784,
         "kind": 87,
-        "quantity": 263,
+        "quantity": 655,
         "quality": 3,
         "price": 575.0,
         "seller": {
@@ -956,8 +916,8 @@
             "courseId": null,
             "ip": "bbc1dd"
         },
-        "posted": "2023-03-16T12:51:22.524964+00:00",
-        "fees": 0
+        "posted": "2023-03-16T23:31:30.309832+00:00",
+        "fees": 6762
     },
     {
         "id": 54681493,
@@ -1000,29 +960,9 @@
         "fees": 9216
     },
     {
-        "id": 54913080,
-        "kind": 87,
-        "quantity": 300,
-        "quality": 4,
-        "price": 625.0,
-        "seller": {
-            "id": 2035548,
-            "company": "ClichedGhost Inc.",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/fdc00a7eedf55879a06354cf7fd6440d6148f91b.png",
-            "certificates": 4,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "3f6bdc"
-        },
-        "posted": "2023-03-16T19:08:34.850048+00:00",
-        "fees": 5625
-    },
-    {
         "id": 54896223,
         "kind": 87,
-        "quantity": 357,
+        "quantity": 157,
         "quality": 4,
         "price": 630.0,
         "seller": {
@@ -1058,6 +998,26 @@
         },
         "posted": "2023-03-12T14:42:04.368018+00:00",
         "fees": 0
+    },
+    {
+        "id": 54917197,
+        "kind": 87,
+        "quantity": 10,
+        "quality": 5,
+        "price": 690.0,
+        "seller": {
+            "id": 368316,
+            "company": "Hype Inc.",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/fdf301862ee8c80078652fa2406807f27a721f86.png",
+            "certificates": 3,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "d3be78"
+        },
+        "posted": "2023-03-16T20:20:08.223672+00:00",
+        "fees": 207
     },
     {
         "id": 54470592,

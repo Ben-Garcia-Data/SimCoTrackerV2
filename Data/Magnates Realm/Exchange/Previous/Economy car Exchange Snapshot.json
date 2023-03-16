@@ -1,48 +1,8 @@
 [
     {
-        "id": 54915710,
-        "kind": 55,
-        "quantity": 129,
-        "quality": 0,
-        "price": 2160.0,
-        "seller": {
-            "id": 2894691,
-            "company": "INFINITA S.L.",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "9aef1a"
-        },
-        "posted": "2023-03-16T19:55:09.214828+00:00",
-        "fees": 8360
-    },
-    {
-        "id": 54915096,
-        "kind": 55,
-        "quantity": 78,
-        "quality": 0,
-        "price": 2170.0,
-        "seller": {
-            "id": 1663281,
-            "company": "DAntuoni Gruppo A.A.I.",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/e11e06973e529a5df7668b7d6671ce1dfe93c2f6.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "4078da"
-        },
-        "posted": "2023-03-16T19:45:05.702976+00:00",
-        "fees": 5078
-    },
-    {
         "id": 54915239,
         "kind": 55,
-        "quantity": 574,
+        "quantity": 8,
         "quality": 2,
         "price": 2180.0,
         "seller": {
@@ -58,6 +18,26 @@
         },
         "posted": "2023-03-16T19:47:44.682145+00:00",
         "fees": 0
+    },
+    {
+        "id": 54926056,
+        "kind": 55,
+        "quantity": 500,
+        "quality": 2,
+        "price": 2180.0,
+        "seller": {
+            "id": 838065,
+            "company": "Ergul Grup",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/f158a595807bdadf100c8ecb46b3f08649f52e25.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "f41add"
+        },
+        "posted": "2023-03-16T23:03:12.431877+00:00",
+        "fees": 32700
     },
     {
         "id": 54908749,
@@ -118,46 +98,6 @@
         },
         "posted": "2023-03-16T18:15:40.712812+00:00",
         "fees": 66
-    },
-    {
-        "id": 54908399,
-        "kind": 55,
-        "quantity": 86,
-        "quality": 4,
-        "price": 2190.0,
-        "seller": {
-            "id": 823683,
-            "company": "UKRAINE SUPPORT CORP.",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/a6707a1422c3a4c8984e02a2b5cf608eba67fa64.png",
-            "certificates": 7,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "254b97"
-        },
-        "posted": "2023-03-16T17:39:04.384664+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54913424,
-        "kind": 55,
-        "quantity": 200,
-        "quality": 4,
-        "price": 2190.0,
-        "seller": {
-            "id": 1918149,
-            "company": "The 31 Company",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "913b5a"
-        },
-        "posted": "2023-03-16T19:14:09.456364+00:00",
-        "fees": 13140
     },
     {
         "id": 54910340,

@@ -1,190 +1,90 @@
 [
     {
-        "id": 54914953,
+        "id": 54926810,
         "kind": 105,
-        "quantity": 3270,
+        "quantity": 1259,
+        "quality": 0,
+        "price": 1.19,
+        "seller": {
+            "id": 2918410,
+            "company": "3ng4g3",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "5a6afa"
+        },
+        "posted": "2023-03-16T23:20:15.756961+00:00",
+        "fees": 45
+    },
+    {
+        "id": 54926314,
+        "kind": 105,
+        "quantity": 38300,
         "quality": 0,
         "price": 1.2,
         "seller": {
-            "id": 2602747,
-            "company": "TheRichCompany",
+            "id": 2587219,
+            "company": "AMERICAN CONCRETE",
             "realmId": 1,
-            "logo": "",
-            "certificates": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/af34751561b39c924bb3be35e9c3a3d8d422b9b8.png",
+            "certificates": 3,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "e9c6a0"
+            "ip": "8939fe"
         },
-        "posted": "2023-03-16T19:42:02.199899+00:00",
-        "fees": 118
+        "posted": "2023-03-16T23:09:33.502801+00:00",
+        "fees": 1379
     },
     {
-        "id": 54913872,
+        "id": 54925379,
         "kind": 105,
-        "quantity": 18487,
-        "quality": 0,
-        "price": 1.22,
-        "seller": {
-            "id": 2928673,
-            "company": "Paladin Productions",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "908e60"
-        },
-        "posted": "2023-03-16T19:23:12.562532+00:00",
-        "fees": 677
-    },
-    {
-        "id": 54914759,
-        "kind": 105,
-        "quantity": 2251,
-        "quality": 0,
-        "price": 1.22,
-        "seller": {
-            "id": 2554654,
-            "company": "Franklin logistics",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "203a03"
-        },
-        "posted": "2023-03-16T19:38:00.652011+00:00",
-        "fees": 83
-    },
-    {
-        "id": 54913664,
-        "kind": 105,
-        "quantity": 4599,
-        "quality": 0,
-        "price": 1.23,
-        "seller": {
-            "id": 2710676,
-            "company": "GreyWolf Business Ltd",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "1ec5fe"
-        },
-        "posted": "2023-03-16T19:18:56.458909+00:00",
-        "fees": 170
-    },
-    {
-        "id": 54912634,
-        "kind": 105,
-        "quantity": 11134,
+        "quantity": 1676,
         "quality": 0,
         "price": 1.24,
         "seller": {
-            "id": 2845022,
-            "company": "Sharp razor",
+            "id": 2918410,
+            "company": "3ng4g3",
             "realmId": 1,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "280262"
+            "ip": "5a6afa"
         },
-        "posted": "2023-03-16T19:01:11.517524+00:00",
-        "fees": 415
+        "posted": "2023-03-16T22:48:54.840667+00:00",
+        "fees": 63
     },
     {
-        "id": 54910150,
+        "id": 54926321,
         "kind": 105,
-        "quantity": 15256,
+        "quantity": 1800,
+        "quality": 0,
+        "price": 1.24,
+        "seller": {
+            "id": 2871250,
+            "company": "Company name already exists",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0200bc"
+        },
+        "posted": "2023-03-16T23:09:39.057326+00:00",
+        "fees": 67
+    },
+    {
+        "id": 54926068,
+        "kind": 105,
+        "quantity": 8000,
         "quality": 0,
         "price": 1.25,
-        "seller": {
-            "id": 2584777,
-            "company": "Tome Rider",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "4e3c47"
-        },
-        "posted": "2023-03-16T18:12:26.488014+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54909459,
-        "kind": 105,
-        "quantity": 723,
-        "quality": 0,
-        "price": 1.26,
-        "seller": {
-            "id": 2855020,
-            "company": "Off Limit",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "6ebf01"
-        },
-        "posted": "2023-03-16T17:59:17.300408+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54909584,
-        "kind": 105,
-        "quantity": 5000,
-        "quality": 0,
-        "price": 1.26,
-        "seller": {
-            "id": 2938655,
-            "company": "Garbo Industries",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2f806b0bbb47297244a8385690b6e6830807c295.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "2fd8ae"
-        },
-        "posted": "2023-03-16T18:01:55.042589+00:00",
-        "fees": 189
-    },
-    {
-        "id": 54839936,
-        "kind": 105,
-        "quantity": 102329,
-        "quality": 0,
-        "price": 1.27,
-        "seller": {
-            "id": 2716211,
-            "company": "SSC Lorenzo Inc",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "a3a584"
-        },
-        "posted": "2023-03-16T10:30:00.663527+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54891039,
-        "kind": 105,
-        "quantity": 25000,
-        "quality": 0,
-        "price": 1.27,
         "seller": {
             "id": 2596493,
             "company": "Dunder Mifflin Scranton",
@@ -196,53 +96,33 @@
             "courseId": null,
             "ip": "016540"
         },
-        "posted": "2023-03-16T11:54:57.217492+00:00",
-        "fees": 953
-    },
-    {
-        "id": 54902625,
-        "kind": 105,
-        "quantity": 7868,
-        "quality": 0,
-        "price": 1.27,
-        "seller": {
-            "id": 2875013,
-            "company": "HarleCompany",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/65e9cd2989cf36f66cdbca5c854129437be8d1b4.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "153669"
-        },
-        "posted": "2023-03-16T15:46:45.353507+00:00",
+        "posted": "2023-03-16T23:03:31.552552+00:00",
         "fees": 300
     },
     {
-        "id": 54906059,
+        "id": 54924998,
         "kind": 105,
-        "quantity": 4952,
+        "quantity": 10000,
         "quality": 0,
-        "price": 1.27,
+        "price": 1.26,
         "seller": {
-            "id": 2595304,
-            "company": "The Local Mall",
+            "id": 2605282,
+            "company": "Inho Solutions",
             "realmId": 1,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "333e28"
+            "ip": "9d917b"
         },
-        "posted": "2023-03-16T16:53:41.264680+00:00",
-        "fees": 189
+        "posted": "2023-03-16T22:40:23.964488+00:00",
+        "fees": 378
     },
     {
         "id": 54910483,
         "kind": 105,
-        "quantity": 49769,
+        "quantity": 45863,
         "quality": 0,
         "price": 1.27,
         "seller": {
@@ -257,7 +137,27 @@
             "ip": "1f6533"
         },
         "posted": "2023-03-16T18:18:40.326634+00:00",
-        "fees": 1897
+        "fees": 0
+    },
+    {
+        "id": 54906059,
+        "kind": 105,
+        "quantity": 11797,
+        "quality": 0,
+        "price": 1.27,
+        "seller": {
+            "id": 2595304,
+            "company": "The Local Mall",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "333e28"
+        },
+        "posted": "2023-03-16T21:35:20.115860+00:00",
+        "fees": 451
     },
     {
         "id": 54622349,
@@ -562,7 +462,7 @@
     {
         "id": 54905548,
         "kind": 105,
-        "quantity": 107084,
+        "quantity": 46562,
         "quality": 1,
         "price": 1.37,
         "seller": {
@@ -577,7 +477,7 @@
             "ip": "bd5214"
         },
         "posted": "2023-03-16T16:43:53.913185+00:00",
-        "fees": 4402
+        "fees": 0
     },
     {
         "id": 54403543,

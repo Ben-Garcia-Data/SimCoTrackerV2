@@ -1,5 +1,45 @@
 [
     {
+        "id": 54920806,
+        "kind": 28,
+        "quantity": 4,
+        "quality": 0,
+        "price": 820.0,
+        "seller": {
+            "id": 2583889,
+            "company": "HAKUSHU",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/914690ec03d4aebd7225326e9606190e79cf76d5.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "a79184"
+        },
+        "posted": "2023-03-16T21:19:09.780639+00:00",
+        "fees": 0
+    },
+    {
+        "id": 54920076,
+        "kind": 28,
+        "quantity": 39,
+        "quality": 1,
+        "price": 825.0,
+        "seller": {
+            "id": 2583811,
+            "company": "New Xareu",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "1599f9"
+        },
+        "posted": "2023-03-16T21:08:22.180365+00:00",
+        "fees": 966
+    },
+    {
         "id": 54903684,
         "kind": 28,
         "quantity": 281,
@@ -60,6 +100,46 @@
         "fees": 3735
     },
     {
+        "id": 54917492,
+        "kind": 28,
+        "quantity": 250,
+        "quality": 2,
+        "price": 835.0,
+        "seller": {
+            "id": 2590223,
+            "company": "Reefting GmbH",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "c499fd"
+        },
+        "posted": "2023-03-16T20:24:55.357236+00:00",
+        "fees": 0
+    },
+    {
+        "id": 54918809,
+        "kind": 28,
+        "quantity": 228,
+        "quality": 2,
+        "price": 835.0,
+        "seller": {
+            "id": 2604103,
+            "company": "Beast Retail",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/535cbc224cf1e170e0c8a8e6dcd9ff319ab9bdc2.png",
+            "certificates": 4,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "1e2cd5"
+        },
+        "posted": "2023-03-16T23:41:52.066900+00:00",
+        "fees": 5712
+    },
+    {
         "id": 54867921,
         "kind": 28,
         "quantity": 318,
@@ -82,7 +162,7 @@
     {
         "id": 54907542,
         "kind": 28,
-        "quantity": 549,
+        "quantity": 852,
         "quality": 2,
         "price": 840.0,
         "seller": {
@@ -96,8 +176,8 @@
             "courseId": null,
             "ip": "00d51f"
         },
-        "posted": "2023-03-16T19:17:13.330392+00:00",
-        "fees": 0
+        "posted": "2023-03-16T20:45:16.853006+00:00",
+        "fees": 7636
     },
     {
         "id": 54854722,
@@ -260,26 +340,6 @@
         "fees": 1257
     },
     {
-        "id": 54870963,
-        "kind": 28,
-        "quantity": 226,
-        "quality": 3,
-        "price": 860.0,
-        "seller": {
-            "id": 2584672,
-            "company": "Still Clueless Co",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "1fced8"
-        },
-        "posted": "2023-03-16T04:18:40.804649+00:00",
-        "fees": 0
-    },
-    {
         "id": 54490131,
         "kind": 28,
         "quantity": 93,
@@ -322,7 +382,7 @@
     {
         "id": 54865981,
         "kind": 28,
-        "quantity": 982,
+        "quantity": 342,
         "quality": 3,
         "price": 865.0,
         "seller": {
@@ -337,7 +397,7 @@
             "ip": "ba08f1"
         },
         "posted": "2023-03-16T01:41:17.401392+00:00",
-        "fees": 25483
+        "fees": 0
     },
     {
         "id": 54722384,

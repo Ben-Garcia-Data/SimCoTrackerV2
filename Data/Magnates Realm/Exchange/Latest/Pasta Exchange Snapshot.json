@@ -2,7 +2,7 @@
     {
         "id": 54830611,
         "kind": 128,
-        "quantity": 2059,
+        "quantity": 2039,
         "quality": 0,
         "price": 45.5,
         "seller": {
@@ -582,7 +582,7 @@
     {
         "id": 54555143,
         "kind": 128,
-        "quantity": 3549,
+        "quantity": 3499,
         "quality": 1,
         "price": 57.0,
         "seller": {
@@ -618,6 +618,26 @@
         },
         "posted": "2023-03-11T17:11:29.431558+00:00",
         "fees": 989
+    },
+    {
+        "id": 54919242,
+        "kind": 128,
+        "quantity": 798,
+        "quality": 2,
+        "price": 58.0,
+        "seller": {
+            "id": 1952811,
+            "company": "Von und Zu",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/736c37101fbde41867ae0b0c5eb8610539117309.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "a56e68"
+        },
+        "posted": "2023-03-16T20:54:09.372002+00:00",
+        "fees": 1389
     },
     {
         "id": 54488134,
@@ -697,26 +717,6 @@
             "ip": "f52e4d"
         },
         "posted": "2023-03-11T19:40:20.415150+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54472150,
-        "kind": 128,
-        "quantity": 798,
-        "quality": 2,
-        "price": 60.0,
-        "seller": {
-            "id": 1952811,
-            "company": "Von und Zu",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/736c37101fbde41867ae0b0c5eb8610539117309.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "f26fd9"
-        },
-        "posted": "2023-03-10T20:32:19.391307+00:00",
         "fees": 0
     },
     {
@@ -898,26 +898,6 @@
         },
         "posted": "2023-03-09T05:58:25.275843+00:00",
         "fees": 0
-    },
-    {
-        "id": 54909676,
-        "kind": 128,
-        "quantity": 1000,
-        "quality": 4,
-        "price": 85.0,
-        "seller": {
-            "id": 1543510,
-            "company": "Elron Technologies",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/c0d13612a4f0403642d728d82402208f190136bf.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "258a9a"
-        },
-        "posted": "2023-03-16T18:03:46.847581+00:00",
-        "fees": 2550
     },
     {
         "id": 54447452,
