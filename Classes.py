@@ -101,7 +101,7 @@ class Sale:
         self.ID = ID
 
         self.SumPrice = quantity * price
-        self.sellerName = seller['company']
+        self.sellerName = seller['company'].replace(" ","_")
 
         # self.productName = productID
         # Would love to find a way to add nice text to this withbout having to load the
@@ -110,3 +110,17 @@ class Sale:
     def __str__(self):
         return f"{self.quantity} of Q{self.quality} #{self.productID} for {self.price} each sold by {self.sellerName}."
 
+    def SQLInput(self):
+        s = f"""
+        INSERT INTO sales (productID,quantity,price,quality,sale_Time,ID,SumPrice,sellerName) VALUES (
+          '{self.productID}',
+          '{self.quantity}',
+          '{self.price}',
+          '{self.quality}',
+          '{self.time}',
+          '{self.ID}',
+          '{self.SumPrice}',
+          '{self.sellerName}'
+        ); 
+        """
+        return s

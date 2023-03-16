@@ -5,13 +5,19 @@ import requests
 import shutil
 import math
 
+import sqlite3
+from sqlalchemy import Column, Integer, Unicode, UnicodeText, String
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy.ext.declarative import declarative_base
+
 from Classes import Sale
 
 
 def TakeExchangeSnapshot(realm):
     # Pick a realm
     # Load a list of all product DB numbers that we search for in this realm.
-    # Filter this list to products which haven't recently been refreshed- use some clever math to work out what the normal rate of change is and search those which change less frequently, less often.
+    # Filter this list to products which haven't1 recently been refreshed- use some clever math to work out what the normal rate of change is and search those which change less frequently, less often.
     # Move the previous product snapshots into the 'previous' folder, overwriting the file already there.
     # Request data of filtered product list via DB number & save that data into 'latest'
     # Work out all the products which have left the exchange since we last checked. Ideally also filter out potential 'removed' rather than 'sold' products, but be careful of quality implications.
@@ -37,7 +43,7 @@ def TakeExchangeSnapshot(realm):
     f.close()
 
     for resource in resourceList:
-        t = time.time()
+        t1 = time.time()
         name = resource['name']
         # print(f"Starting {name}")
         product_DB_Num = resource["db_letter"]
@@ -51,13 +57,12 @@ def TakeExchangeSnapshot(realm):
             oldTime = os.path.getmtime(new_resource_path)
             saleTime = newTime - (0.5 * (newTime - oldTime))
         except FileNotFoundError:
-            print("Couldn't find file to get timestamp. Assuming this is our first run. I will assign a value to "
-                  "saleTime here but it shouldn't actually be referenced because there won't be any sales.")
+            print("Couldn't1 find file to get timestamp. Assuming this is our first run. I will assign a value to "
+                  "saleTime here but it shouldn't1 actually be referenced because there won't1 be any sales.")
             saleTime = newTime
             pass
 
-        # We need to check the previous time we recorded this product and if it is within N seconds skip the product.
-
+        # TODO We need to check the previous time we recorded this product and if it is within N seconds skip the product.
 
         # Move the previous product snapshots into the 'previous' folder, overwriting the file already there.
         try:
@@ -76,7 +81,6 @@ def TakeExchangeSnapshot(realm):
             time.sleep(10)
             continue
 
-
         # print(newSnapshot)
 
         json_object = json.dumps(newSnapshot, indent=4)
@@ -90,7 +94,7 @@ def TakeExchangeSnapshot(realm):
         # which have left the exchange since last scan. Using set notation, this is the same as B∩A'.
 
         # ---------------------------------------------------------------------------
-        # Can't do sets of dicts. Could i make each dict a tuple and do sets of tuples?
+        # Can't1 do sets of dicts. Could i make each dict a tuple and do sets of tuples?
 
         try:
             f = open(old_resource_path)
@@ -99,7 +103,8 @@ def TakeExchangeSnapshot(realm):
         except FileNotFoundError:
             f.close()
             print(
-                "File not found to compate to. As long as this is the first time this product has been run, this is okay. If this error reapeats for the same product there is an issue.")
+                "File not found to compate to. As long as this is the first time this product has been run, "
+                "this is okay. If this error reapeats for the same product there is an issue.")
             data = []
 
         # Sort both lists by ID so we can iterate through them without time wasting.
@@ -110,9 +115,8 @@ def TakeExchangeSnapshot(realm):
         sales = []
 
         # TODO-- Add in something which will filter out products that have been removed but
-        #  lower price & quality products haven't, indicating manual removals.
+        #  lower price & quality products haven't1, indicating manual removals.
         #
-
 
         # These are all debug bits. helping to make this algo more efficent.
         # countA = 0
@@ -121,6 +125,9 @@ def TakeExchangeSnapshot(realm):
         # print("Big O of Nlog(N) is", len(oldSnapshot) * math.log(len(oldSnapshot)))
         # print("Big O of N^2 is", math.pow(len(oldSnapshot),2))
 
+        # TODO The algo could be made even faster by taking the % progress, going back a couple in the list and
+        #  continuing. The chance of missing anything is minimal and the speed upgrades would be substantial. The
+        #  overall time of this is so fast that it doesn't1 really need to be faster.
 
         for x in oldSnapshot:
             # print("Looking at",x['id'])
@@ -147,7 +154,7 @@ def TakeExchangeSnapshot(realm):
                         # print("Quantity of product has increased. Not possible to tell if sales were made.")
                         break
                     else:
-                        # ID matches but quantity doesn't- means a partial sale.
+                        # ID matches but quantity doesn't1- means a partial sale.
                         quantity = x['quantity'] - y['quantity']
                         sold = Sale(x['kind'], x['seller'], quantity, x['price'], x['quality'], saleTime, x['id'])
                         # print(sold.__str__())
@@ -165,8 +172,6 @@ def TakeExchangeSnapshot(realm):
                     break
 
         # print(countC, "is my Big O number.")
-
-
 
         # Attempted to implement differences using sets.
         """for i in [tuple(x.values()[:4]) for x in newSnapshot]:
@@ -200,7 +205,7 @@ def TakeExchangeSnapshot(realm):
                 oldID_QuantitiesIDs.remove(x)
 
         # If the ID-Quantity is unique then either the item is new in the NEW snapshot or has sold out or been
-        # removed. We aren't interested in items which are new in the new snapshot, so by only removing them from the
+        # removed. We aren't1 interested in items which are new in the new snapshot, so by only removing them from the
         # old snapshot and moving on with those, we are left with just newID's which have either completely or
         # partially sold out.
         #
@@ -224,11 +229,11 @@ def TakeExchangeSnapshot(realm):
                 
         # Now we have to loop thru original dataset again matching ID's to either list of sales.
         # THEN we have to difference partial sales."""
+
         def reportAndSleep():
-            print("Found", len(sales), "sales, took", time.time() - t, "seconds.")
+            print("Found", len(sales), "sales, took", time.time() - t1, "seconds.")
             print("")
             time.sleep(1)
-
 
         if len(sales) == 0:
             reportAndSleep()
@@ -238,8 +243,27 @@ def TakeExchangeSnapshot(realm):
         # This is the point where instead of using text files to record our JSON we should be using a database. Would
         # we rather store all recorded sales in RAM somehow (massive list of tuples & payloads) or open/close the
         # database frequently?
+        def CreateNewTable():
+            path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
+            con = sqlite3.connect(path)
+            cur = con.cursor()
+            # cur.execute("DROP TABLE sales")
+            cur.execute("CREATE TABLE sales(productID,quantity,price,quality,sale_Time,ID,SumPrice,sellerName)")
 
+        def appendRecordtoDatabase(record):
+            # print(record.__dict__)
+            # print(record.SQLInput())
+            path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
+            con = sqlite3.connect(path)
+            cur = con.cursor()
+            cur.execute(record.SQLInput())
+            con.commit()
 
+        # CreateNewTable()
+        for i in sales:
+            appendRecordtoDatabase(i)
+
+        """
         # print("Writing to file")
         filePath = os.path.join(exchange_Dir,"Historical", f"{name}_ All recorded sales.json")
 
@@ -250,11 +274,11 @@ def TakeExchangeSnapshot(realm):
 
         # We iterate through each sale record and append each one to the file.
         for i in sales:
-            append_record(i.__dict__)
+            append_record(i.__dict__)"""
 
         reportAndSleep()
         # print("Finished writing to file")
 
 
-
-TakeExchangeSnapshot("Entrepreneurs")
+# TakeExchangeSnapshot("Entrepreneurs")
+TakeExchangeSnapshot("Magnates")

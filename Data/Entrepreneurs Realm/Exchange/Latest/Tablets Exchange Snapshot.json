@@ -2,7 +2,7 @@
     {
         "id": 54900603,
         "kind": 25,
-        "quantity": 530,
+        "quantity": 280,
         "quality": 1,
         "price": 660.0,
         "seller": {
@@ -17,7 +17,7 @@
             "ip": "883cc1"
         },
         "posted": "2023-03-16T15:07:14.396805+00:00",
-        "fees": 251
+        "fees": 0
     },
     {
         "id": 54900125,
@@ -38,6 +38,46 @@
         },
         "posted": "2023-03-16T14:57:12.145217+00:00",
         "fees": 832
+    },
+    {
+        "id": 54905553,
+        "kind": 25,
+        "quantity": 3,
+        "quality": 0,
+        "price": 660.0,
+        "seller": {
+            "id": 2994350,
+            "company": "Conglomerate hole",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "825dfd"
+        },
+        "posted": "2023-03-16T16:43:58.177301+00:00",
+        "fees": 60
+    },
+    {
+        "id": 54915502,
+        "kind": 25,
+        "quantity": 1,
+        "quality": 0,
+        "price": 660.0,
+        "seller": {
+            "id": 2595733,
+            "company": "MMsig",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "b9eff5"
+        },
+        "posted": "2023-03-16T19:51:57.777341+00:00",
+        "fees": 20
     },
     {
         "id": 54897784,
@@ -400,26 +440,6 @@
         "fees": 62
     },
     {
-        "id": 54904731,
-        "kind": 25,
-        "quantity": 150,
-        "quality": 2,
-        "price": 685.0,
-        "seller": {
-            "id": 2629428,
-            "company": "Scratch Cake",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "574fb1"
-        },
-        "posted": "2023-03-16T16:27:06.607951+00:00",
-        "fees": 3083
-    },
-    {
         "id": 54714884,
         "kind": 25,
         "quantity": 241,
@@ -438,26 +458,6 @@
         },
         "posted": "2023-03-13T19:32:18.980494+00:00",
         "fees": 4953
-    },
-    {
-        "id": 54892380,
-        "kind": 25,
-        "quantity": 100,
-        "quality": 2,
-        "price": 690.0,
-        "seller": {
-            "id": 2578737,
-            "company": "BLA E.U.",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/064b1e9845d67810f3bcbd6664dbe72eeebee277.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "d5c820"
-        },
-        "posted": "2023-03-16T12:22:56.870750+00:00",
-        "fees": 0
     },
     {
         "id": 54676361,
@@ -580,86 +580,6 @@
         "fees": 63
     },
     {
-        "id": 54900696,
-        "kind": 25,
-        "quantity": 13,
-        "quality": 3,
-        "price": 695.0,
-        "seller": {
-            "id": 2583337,
-            "company": "JUMBO CARRIER",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/0a53c7a93b16dedf873754bd936a5417f91db069.png",
-            "certificates": 4,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "2b58ea"
-        },
-        "posted": "2023-03-16T15:09:19.630655+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54887101,
-        "kind": 25,
-        "quantity": 30,
-        "quality": 2,
-        "price": 695.0,
-        "seller": {
-            "id": 2595108,
-            "company": "AGRARCO",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/390360a9873e0d87e1e36e428b5fcca57d639068.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "9b258b"
-        },
-        "posted": "2023-03-16T10:35:01.440449+00:00",
-        "fees": 626
-    },
-    {
-        "id": 54890824,
-        "kind": 25,
-        "quantity": 137,
-        "quality": 2,
-        "price": 695.0,
-        "seller": {
-            "id": 2611234,
-            "company": "Tele 5G",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "f078d0"
-        },
-        "posted": "2023-03-16T11:51:04.100829+00:00",
-        "fees": 2857
-    },
-    {
-        "id": 54891222,
-        "kind": 25,
-        "quantity": 111,
-        "quality": 2,
-        "price": 695.0,
-        "seller": {
-            "id": 2582725,
-            "company": "Tech Energy Group",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/faf8eb2710c6b90bb087c5cedb8ee08f75d75639.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "c1e30e"
-        },
-        "posted": "2023-03-16T11:58:29.862549+00:00",
-        "fees": 2315
-    },
-    {
         "id": 54548141,
         "kind": 25,
         "quantity": 202,
@@ -722,7 +642,7 @@
     {
         "id": 54873021,
         "kind": 25,
-        "quantity": 442,
+        "quantity": 242,
         "quality": 2,
         "price": 700.0,
         "seller": {
@@ -900,26 +820,6 @@
         "fees": 21300
     },
     {
-        "id": 54903127,
-        "kind": 25,
-        "quantity": 290,
-        "quality": 3,
-        "price": 715.0,
-        "seller": {
-            "id": 2581254,
-            "company": "QMK22 INSTASIGN",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f7c09edd2666aebf47466ec9d5443b40bb407d1.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "afb721"
-        },
-        "posted": "2023-03-16T15:55:48.438676+00:00",
-        "fees": 6221
-    },
-    {
         "id": 54322988,
         "kind": 25,
         "quantity": 392,
@@ -957,26 +857,6 @@
             "ip": "abad4a"
         },
         "posted": "2023-03-03T20:44:45.359357+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54898023,
-        "kind": 25,
-        "quantity": 430,
-        "quality": 3,
-        "price": 725.0,
-        "seller": {
-            "id": 2581254,
-            "company": "QMK22 INSTASIGN",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f7c09edd2666aebf47466ec9d5443b40bb407d1.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "afb721"
-        },
-        "posted": "2023-03-16T14:15:42.908672+00:00",
         "fees": 0
     },
     {

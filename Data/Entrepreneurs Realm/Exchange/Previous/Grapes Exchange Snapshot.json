@@ -2,7 +2,7 @@
     {
         "id": 54904920,
         "kind": 5,
-        "quantity": 16000,
+        "quantity": 15800,
         "quality": 0,
         "price": 2.2,
         "seller": {
@@ -17,7 +17,7 @@
             "ip": "2b0e9e"
         },
         "posted": "2023-03-16T16:30:56.920691+00:00",
-        "fees": 1056
+        "fees": 616
     },
     {
         "id": 54904126,
@@ -260,26 +260,6 @@
         "fees": 0
     },
     {
-        "id": 54892150,
-        "kind": 5,
-        "quantity": 8,
-        "quality": 1,
-        "price": 2.7,
-        "seller": {
-            "id": 2923348,
-            "company": "Teebs Inc.",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "746c93"
-        },
-        "posted": "2023-03-16T12:18:30.803534+00:00",
-        "fees": 0
-    },
-    {
         "id": 54905115,
         "kind": 5,
         "quantity": 2000,
@@ -298,6 +278,26 @@
         },
         "posted": "2023-03-16T16:35:03.031659+00:00",
         "fees": 162
+    },
+    {
+        "id": 54892150,
+        "kind": 5,
+        "quantity": 452,
+        "quality": 1,
+        "price": 2.7,
+        "seller": {
+            "id": 2923348,
+            "company": "Teebs Inc.",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "746c93"
+        },
+        "posted": "2023-03-16T16:39:28.974876+00:00",
+        "fees": 36
     },
     {
         "id": 54888150,

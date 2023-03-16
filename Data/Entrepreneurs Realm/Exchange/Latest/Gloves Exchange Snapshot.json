@@ -40,6 +40,26 @@
         "fees": 299
     },
     {
+        "id": 54907640,
+        "kind": 61,
+        "quantity": 12310,
+        "quality": 1,
+        "price": 14.0,
+        "seller": {
+            "id": 2581904,
+            "company": "Fauman Enterprise",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/94026ae0661866458221bb8366f7a90ccd9aa38a.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "afbfaf"
+        },
+        "posted": "2023-03-16T17:24:52.796321+00:00",
+        "fees": 5171
+    },
+    {
         "id": 54662934,
         "kind": 61,
         "quantity": 5000,
@@ -260,6 +280,26 @@
         "fees": 0
     },
     {
+        "id": 54912480,
+        "kind": 61,
+        "quantity": 3000,
+        "quality": 2,
+        "price": 14.7,
+        "seller": {
+            "id": 2585509,
+            "company": "Thaumatin",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/ffd4e804f164f4fb87684f73f59b2e216bacee54.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "818ad6"
+        },
+        "posted": "2023-03-16T18:58:37.778950+00:00",
+        "fees": 1323
+    },
+    {
         "id": 54619202,
         "kind": 61,
         "quantity": 3457,
@@ -420,26 +460,6 @@
         "fees": 453
     },
     {
-        "id": 54903014,
-        "kind": 61,
-        "quantity": 4400,
-        "quality": 3,
-        "price": 15.2,
-        "seller": {
-            "id": 2581254,
-            "company": "QMK22 INSTASIGN",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f7c09edd2666aebf47466ec9d5443b40bb407d1.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "afb721"
-        },
-        "posted": "2023-03-16T15:53:50.971978+00:00",
-        "fees": 2007
-    },
-    {
         "id": 54576103,
         "kind": 61,
         "quantity": 1354,
@@ -538,26 +558,6 @@
         },
         "posted": "2023-03-10T18:24:21.784285+00:00",
         "fees": 918
-    },
-    {
-        "id": 54898654,
-        "kind": 61,
-        "quantity": 4900,
-        "quality": 3,
-        "price": 15.4,
-        "seller": {
-            "id": 2581254,
-            "company": "QMK22 INSTASIGN",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f7c09edd2666aebf47466ec9d5443b40bb407d1.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "afb721"
-        },
-        "posted": "2023-03-16T14:28:00.483663+00:00",
-        "fees": 2264
     },
     {
         "id": 54550877,
@@ -718,26 +718,6 @@
         },
         "posted": "2023-03-12T17:42:49.760032+00:00",
         "fees": 711
-    },
-    {
-        "id": 54903073,
-        "kind": 61,
-        "quantity": 19900,
-        "quality": 4,
-        "price": 15.9,
-        "seller": {
-            "id": 2581254,
-            "company": "QMK22 INSTASIGN",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f7c09edd2666aebf47466ec9d5443b40bb407d1.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "afb721"
-        },
-        "posted": "2023-03-16T15:54:49.555168+00:00",
-        "fees": 9493
     },
     {
         "id": 54868497,

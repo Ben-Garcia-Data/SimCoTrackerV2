@@ -2,7 +2,7 @@
     {
         "id": 54901964,
         "kind": 64,
-        "quantity": 2751,
+        "quantity": 3381,
         "quality": 0,
         "price": 32.0,
         "seller": {
@@ -16,8 +16,28 @@
             "courseId": null,
             "ip": "10ca8f"
         },
-        "posted": "2023-03-16T15:33:56.261918+00:00",
-        "fees": 0
+        "posted": "2023-03-16T17:50:20.099991+00:00",
+        "fees": 605
+    },
+    {
+        "id": 54905510,
+        "kind": 64,
+        "quantity": 2000,
+        "quality": 1,
+        "price": 32.25,
+        "seller": {
+            "id": 2587065,
+            "company": "VALENTINO GARAVANI",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/aa059d5ff0f8e55afb6aef8dccdafbdc4de14406.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "65ea1a"
+        },
+        "posted": "2023-03-16T16:43:14.305053+00:00",
+        "fees": 1935
     },
     {
         "id": 54882053,
@@ -280,46 +300,6 @@
         "fees": 263
     },
     {
-        "id": 54880303,
-        "kind": 64,
-        "quantity": 1202,
-        "quality": 2,
-        "price": 33.5,
-        "seller": {
-            "id": 2573266,
-            "company": "Cert Hunter.Exe",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/72c5f7702ffd19d70058c544c9f8a29650fae983.png",
-            "certificates": 3,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "a89ec7"
-        },
-        "posted": "2023-03-16T07:52:05.615140+00:00",
-        "fees": 1209
-    },
-    {
-        "id": 54897780,
-        "kind": 64,
-        "quantity": 219,
-        "quality": 2,
-        "price": 33.5,
-        "seller": {
-            "id": 2607314,
-            "company": "Sirius Ltd.",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "ae3ada"
-        },
-        "posted": "2023-03-16T14:11:08.562015+00:00",
-        "fees": 221
-    },
-    {
         "id": 54881937,
         "kind": 64,
         "quantity": 1772,
@@ -438,6 +418,26 @@
         },
         "posted": "2023-03-14T21:45:51.557915+00:00",
         "fees": 141
+    },
+    {
+        "id": 54914737,
+        "kind": 64,
+        "quantity": 992,
+        "quality": 1,
+        "price": 34.0,
+        "seller": {
+            "id": 2587843,
+            "company": "City trade",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/6cd4fe349559d2b60d67e60c901ecfee0b1e5b78.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e0daf7"
+        },
+        "posted": "2023-03-16T19:37:45.557909+00:00",
+        "fees": 1012
     },
     {
         "id": 54769312,
@@ -598,6 +598,26 @@
         },
         "posted": "2023-03-14T01:05:47.772905+00:00",
         "fees": 347
+    },
+    {
+        "id": 54915320,
+        "kind": 64,
+        "quantity": 797,
+        "quality": 4,
+        "price": 36.0,
+        "seller": {
+            "id": 2641000,
+            "company": "Nike a.c.",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/74d52831421b07949feabdfc4a43d77a962952d3.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "456ce2"
+        },
+        "posted": "2023-03-16T19:48:55.398177+00:00",
+        "fees": 861
     },
     {
         "id": 54897129,

@@ -1,8 +1,28 @@
 [
     {
+        "id": 54914597,
+        "kind": 26,
+        "quantity": 2,
+        "quality": 0,
+        "price": 1010.0,
+        "seller": {
+            "id": 2600863,
+            "company": "fgghh",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "5c15ca"
+        },
+        "posted": "2023-03-16T19:35:25.846849+00:00",
+        "fees": 61
+    },
+    {
         "id": 54905387,
         "kind": 26,
-        "quantity": 36,
+        "quantity": 29,
         "quality": 0,
         "price": 1020.0,
         "seller": {
@@ -16,8 +36,8 @@
             "courseId": null,
             "ip": "b109f3"
         },
-        "posted": "2023-03-16T16:40:04.617781+00:00",
-        "fees": 1102
+        "posted": "2023-03-16T18:53:29.194899+00:00",
+        "fees": 0
     },
     {
         "id": 54904230,
@@ -60,6 +80,26 @@
         "fees": 1560
     },
     {
+        "id": 54913550,
+        "kind": 26,
+        "quantity": 6,
+        "quality": 0,
+        "price": 1040.0,
+        "seller": {
+            "id": 2583715,
+            "company": "CIPHERS INC. 561",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "9b5192"
+        },
+        "posted": "2023-03-16T19:16:38.054356+00:00",
+        "fees": 188
+    },
+    {
         "id": 54905398,
         "kind": 26,
         "quantity": 1000,
@@ -78,6 +118,26 @@
         },
         "posted": "2023-03-16T16:40:20.208023+00:00",
         "fees": 31500
+    },
+    {
+        "id": 54911856,
+        "kind": 26,
+        "quantity": 200,
+        "quality": 2,
+        "price": 1050.0,
+        "seller": {
+            "id": 2582725,
+            "company": "Tech Energy Group",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/faf8eb2710c6b90bb087c5cedb8ee08f75d75639.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "df69cb"
+        },
+        "posted": "2023-03-16T18:46:34.972857+00:00",
+        "fees": 6300
     },
     {
         "id": 54900625,
@@ -422,7 +482,7 @@
     {
         "id": 54233753,
         "kind": 26,
-        "quantity": 571,
+        "quantity": 629,
         "quality": 1,
         "price": 1110.0,
         "seller": {
@@ -436,8 +496,8 @@
             "courseId": null,
             "ip": "514243"
         },
-        "posted": "2023-03-15T20:13:27.654348+00:00",
-        "fees": 16858
+        "posted": "2023-03-16T19:45:48.799375+00:00",
+        "fees": 18790
     },
     {
         "id": 54470481,
@@ -600,6 +660,26 @@
         "fees": 34
     },
     {
+        "id": 54915162,
+        "kind": 26,
+        "quantity": 317,
+        "quality": 3,
+        "price": 1140.0,
+        "seller": {
+            "id": 2595500,
+            "company": "El Moustaki",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/5d7b4f2950e42bdeb59b96502dd737676d0b1afe.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "47c9e3"
+        },
+        "posted": "2023-03-16T19:46:23.220557+00:00",
+        "fees": 10842
+    },
+    {
         "id": 54470466,
         "kind": 26,
         "quantity": 1,
@@ -620,9 +700,9 @@
         "fees": 35
     },
     {
-        "id": 54758567,
+        "id": 54912404,
         "kind": 26,
-        "quantity": 350,
+        "quantity": 370,
         "quality": 3,
         "price": 1150.0,
         "seller": {
@@ -634,10 +714,10 @@
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "77a529"
+            "ip": "d35651"
         },
-        "posted": "2023-03-14T11:49:37.677310+00:00",
-        "fees": 12075
+        "posted": "2023-03-16T18:57:10.630369+00:00",
+        "fees": 12765
     },
     {
         "id": 54470462,
@@ -658,6 +738,26 @@
         },
         "posted": "2023-03-10T05:12:39.285049+00:00",
         "fees": 35
+    },
+    {
+        "id": 54909707,
+        "kind": 26,
+        "quantity": 200,
+        "quality": 3,
+        "price": 1160.0,
+        "seller": {
+            "id": 2696530,
+            "company": "Electronics Revelation",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9e5d264ed0aa1e5cccecab45a6ef92d5a81ea87a.png",
+            "certificates": 3,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "d67da4"
+        },
+        "posted": "2023-03-16T18:04:15.776074+00:00",
+        "fees": 6960
     },
     {
         "id": 54755886,
@@ -698,6 +798,26 @@
         },
         "posted": "2023-03-10T05:12:34.565928+00:00",
         "fees": 36
+    },
+    {
+        "id": 54910076,
+        "kind": 26,
+        "quantity": 20,
+        "quality": 4,
+        "price": 1180.0,
+        "seller": {
+            "id": 2553391,
+            "company": "Dibbleganger",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/ec00f5a03ddf6af65676c3b79022331070262ef6.png",
+            "certificates": 28,
+            "contest_wins": 1,
+            "npc": false,
+            "courseId": null,
+            "ip": "992498"
+        },
+        "posted": "2023-03-16T18:10:57.720053+00:00",
+        "fees": 708
     },
     {
         "id": 54470448,

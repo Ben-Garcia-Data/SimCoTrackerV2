@@ -2,7 +2,7 @@
     {
         "id": 54903684,
         "kind": 28,
-        "quantity": 383,
+        "quantity": 281,
         "quality": 0,
         "price": 825.0,
         "seller": {
@@ -17,7 +17,7 @@
             "ip": "b2d866"
         },
         "posted": "2023-03-16T16:07:37.021967+00:00",
-        "fees": 7079
+        "fees": 0
     },
     {
         "id": 54897763,
@@ -80,6 +80,26 @@
         "fees": 7966
     },
     {
+        "id": 54907542,
+        "kind": 28,
+        "quantity": 549,
+        "quality": 2,
+        "price": 840.0,
+        "seller": {
+            "id": 2580988,
+            "company": "SELL PROJECT V2",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/8c2f6928cea17fc537bf7fc258b46ea2912dd958.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "00d51f"
+        },
+        "posted": "2023-03-16T19:17:13.330392+00:00",
+        "fees": 0
+    },
+    {
         "id": 54854722,
         "kind": 28,
         "quantity": 24,
@@ -100,29 +120,9 @@
         "fees": 0
     },
     {
-        "id": 54860444,
-        "kind": 28,
-        "quantity": 128,
-        "quality": 1,
-        "price": 840.0,
-        "seller": {
-            "id": 2581237,
-            "company": "Pratos cariocaxx",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/b01db6ee0785526338df0e1b93735c674cfaa7ef.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "efadf3"
-        },
-        "posted": "2023-03-15T23:16:05.168814+00:00",
-        "fees": 3226
-    },
-    {
         "id": 54824966,
         "kind": 28,
-        "quantity": 56,
+        "quantity": 174,
         "quality": 2,
         "price": 845.0,
         "seller": {
@@ -136,8 +136,8 @@
             "courseId": null,
             "ip": "2c8ee8"
         },
-        "posted": "2023-03-16T03:54:34.272433+00:00",
-        "fees": 0
+        "posted": "2023-03-16T16:54:09.014715+00:00",
+        "fees": 2992
     },
     {
         "id": 54771452,
@@ -378,26 +378,6 @@
         },
         "posted": "2023-03-12T15:34:00.875900+00:00",
         "fees": 22103
-    },
-    {
-        "id": 54590138,
-        "kind": 28,
-        "quantity": 200,
-        "quality": 3,
-        "price": 880.0,
-        "seller": {
-            "id": 2592304,
-            "company": "Victory Gust",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/d466556e6957586f838564791aae081f63c1ef90.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5ddd69"
-        },
-        "posted": "2023-03-11T23:09:30.247018+00:00",
-        "fees": 5280
     },
     {
         "id": 54588087,

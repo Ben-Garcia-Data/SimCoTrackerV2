@@ -2,7 +2,7 @@
     {
         "id": 54902395,
         "kind": 23,
-        "quantity": 4,
+        "quantity": 2,
         "quality": 0,
         "price": 103.0,
         "seller": {
@@ -17,7 +17,7 @@
             "ip": "db2c03"
         },
         "posted": "2023-03-16T15:42:50.018206+00:00",
-        "fees": 13
+        "fees": 0
     },
     {
         "id": 54903641,
@@ -98,6 +98,26 @@
         },
         "posted": "2023-03-16T12:56:34.603348+00:00",
         "fees": 0
+    },
+    {
+        "id": 54905321,
+        "kind": 23,
+        "quantity": 2,
+        "quality": 0,
+        "price": 104.0,
+        "seller": {
+            "id": 3008152,
+            "company": "PAGUE MENOS",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "7b1ce2"
+        },
+        "posted": "2023-03-16T16:39:10.075867+00:00",
+        "fees": 7
     },
     {
         "id": 54901195,

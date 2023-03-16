@@ -2,7 +2,7 @@
     {
         "id": 54878782,
         "kind": 115,
-        "quantity": 543,
+        "quantity": 418,
         "quality": 0,
         "price": 103.0,
         "seller": {
@@ -218,6 +218,26 @@
         },
         "posted": "2023-03-15T17:38:05.293560+00:00",
         "fees": 0
+    },
+    {
+        "id": 54905235,
+        "kind": 115,
+        "quantity": 691,
+        "quality": 2,
+        "price": 108.0,
+        "seller": {
+            "id": 2553666,
+            "company": "HighHowRu",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/b1456639f8f0f218e92be8933d58acc472400efe.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "844e46"
+        },
+        "posted": "2023-03-16T16:37:22.625858+00:00",
+        "fees": 2239
     },
     {
         "id": 54872408,

@@ -2,7 +2,7 @@
     {
         "id": 54895998,
         "kind": 107,
-        "quantity": 4565,
+        "quantity": 3527,
         "quality": 0,
         "price": 18.1,
         "seller": {
@@ -58,6 +58,26 @@
         },
         "posted": "2023-03-16T15:28:45.981216+00:00",
         "fees": 2496
+    },
+    {
+        "id": 54905339,
+        "kind": 107,
+        "quantity": 135,
+        "quality": 0,
+        "price": 18.1,
+        "seller": {
+            "id": 2584236,
+            "company": "LivDiv Inc.",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "8f6f86"
+        },
+        "posted": "2023-03-16T16:39:27.884654+00:00",
+        "fees": 74
     },
     {
         "id": 54823235,

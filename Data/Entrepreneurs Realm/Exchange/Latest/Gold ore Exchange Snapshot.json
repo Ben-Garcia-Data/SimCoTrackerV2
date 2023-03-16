@@ -1,68 +1,28 @@
 [
     {
-        "id": 54894427,
+        "id": 54910961,
         "kind": 68,
-        "quantity": 2465,
+        "quantity": 989,
         "quality": 0,
         "price": 25.75,
         "seller": {
-            "id": 2607155,
-            "company": "Global Tech",
+            "id": 2589784,
+            "company": "MY MYNE",
             "realmId": 1,
-            "logo": "",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9fe824e02a4b0d41531d6360c170ca55a5dca167.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "bb3441"
+            "ip": "e7204b"
         },
-        "posted": "2023-03-16T13:05:06.426014+00:00",
+        "posted": "2023-03-16T18:28:52.929852+00:00",
         "fees": 0
-    },
-    {
-        "id": 54896717,
-        "kind": 68,
-        "quantity": 457,
-        "quality": 0,
-        "price": 25.75,
-        "seller": {
-            "id": 2587189,
-            "company": "Companhia Romanha S.A.",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/7edce8e327d29b02d9b92cd2e4ad5427e5d250e1.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "2b020c"
-        },
-        "posted": "2023-03-16T13:50:46.885733+00:00",
-        "fees": 354
-    },
-    {
-        "id": 54739362,
-        "kind": 68,
-        "quantity": 191,
-        "quality": 0,
-        "price": 26.0,
-        "seller": {
-            "id": 2976190,
-            "company": "Grm Business2",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "8ae328"
-        },
-        "posted": "2023-03-14T04:34:53.050107+00:00",
-        "fees": 149
     },
     {
         "id": 54714227,
         "kind": 68,
-        "quantity": 6482,
+        "quantity": 4395,
         "quality": 0,
         "price": 26.0,
         "seller": {
@@ -77,7 +37,7 @@
             "ip": "4eddce"
         },
         "posted": "2023-03-14T13:33:17.889520+00:00",
-        "fees": 5057
+        "fees": 0
     },
     {
         "id": 54765030,
@@ -340,6 +300,26 @@
         "fees": 621
     },
     {
+        "id": 54914272,
+        "kind": 68,
+        "quantity": 5831,
+        "quality": 0,
+        "price": 26.0,
+        "seller": {
+            "id": 2586884,
+            "company": "Mindfactory",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/c257d6bb684c6ac0432007367a92c4c8784ce873.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "7b0ee0"
+        },
+        "posted": "2023-03-16T19:30:10.124007+00:00",
+        "fees": 4549
+    },
+    {
         "id": 54710920,
         "kind": 68,
         "quantity": 1042,
@@ -358,26 +338,6 @@
         },
         "posted": "2023-03-13T18:26:13.862688+00:00",
         "fees": 821
-    },
-    {
-        "id": 54904393,
-        "kind": 68,
-        "quantity": 11448,
-        "quality": 1,
-        "price": 26.5,
-        "seller": {
-            "id": 2553539,
-            "company": "Big Solutions",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/35f33c77b85bc316a2bbc6a4d9e9eed3b4b622eb.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "756519"
-        },
-        "posted": "2023-03-16T16:20:54.137489+00:00",
-        "fees": 9102
     },
     {
         "id": 54701852,

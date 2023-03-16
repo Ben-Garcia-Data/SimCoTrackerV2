@@ -1,8 +1,28 @@
 [
     {
+        "id": 54905346,
+        "kind": 18,
+        "quantity": 1790,
+        "quality": 1,
+        "price": 16.4,
+        "seller": {
+            "id": 2755259,
+            "company": "edge kapital",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e3dd0b"
+        },
+        "posted": "2023-03-16T16:39:31.048035+00:00",
+        "fees": 881
+    },
+    {
         "id": 54904699,
         "kind": 18,
-        "quantity": 2226,
+        "quantity": 226,
         "quality": 2,
         "price": 16.5,
         "seller": {
@@ -17,7 +37,7 @@
             "ip": "574fb1"
         },
         "posted": "2023-03-16T16:26:36.722483+00:00",
-        "fees": 1102
+        "fees": 0
     },
     {
         "id": 54904712,
@@ -58,6 +78,26 @@
         },
         "posted": "2023-03-16T15:13:05.981323+00:00",
         "fees": 0
+    },
+    {
+        "id": 54905154,
+        "kind": 18,
+        "quantity": 216,
+        "quality": 0,
+        "price": 16.5,
+        "seller": {
+            "id": 2978580,
+            "company": "Rupani group of companies",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "cbc7f8"
+        },
+        "posted": "2023-03-16T16:35:53.733426+00:00",
+        "fees": 107
     },
     {
         "id": 54900844,
