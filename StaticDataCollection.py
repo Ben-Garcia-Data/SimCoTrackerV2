@@ -201,13 +201,29 @@ def UpdateEncyclopedia():
 
     def CreateEntrepeneurVersions():
         # Use the url to get a list of entrepeneur products and then filter other files to just these.
-        url = "https://www.simcompanies.com/api/v4/en/1/encyclopedia/resources/"
+        url = "http://www.simcompanies.com/api/v4/en/1/encyclopedia/resources/"
+        # url = "http://www.google.com"
         data = requests.get(url)
         data = data.json()
-        print(data)
         valid_resources = [x["name"] for x in data]
         print(valid_resources)
         # Directories we need to get files to filter from
+
+        f = open(os.path.join(resources_Dir,"Resource_List.json"), "r")
+        allResources = json.load(f)
+        f.close()
+
+        entrepeneurResources = []
+
+        for i in allResources:
+            if i['name'] in valid_resources:
+                entrepeneurResources.append(i)
+
+        print(len(entrepeneurResources))
+        json_object = json.dumps(entrepeneurResources, indent=4)
+        entrepeneurResourcesPath = os.path.join(os.getcwd(), "Data", "Entrepreneurs Realm", "Encyclopedia","Resources","Resource_List.json")
+        with open(entrepeneurResourcesPath, "w") as outfile:
+            outfile.write(json_object)
 
     # UpdateResources()
     # UpdateBuildings()

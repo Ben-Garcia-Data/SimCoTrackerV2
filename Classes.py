@@ -78,3 +78,35 @@ class Resource:
     # Products should be a list of items that this can be used for.
     # Recipe sould be a recipe class
 
+class Sale:
+    # Sale is a summary of a sale.
+
+    def __init__(self,
+                 productID,
+                 seller,
+                 quantity,
+                 price,
+                 quality,
+                 sale_Time,
+                 ID
+
+                 ):
+
+        self.productID = productID
+        self.sellerInfo = seller
+        self.quantity = quantity
+        self.price = price
+        self.quality = quality
+        self.time = sale_Time
+        self.ID = ID
+
+        self.SumPrice = quantity * price
+        self.sellerName = seller['company']
+
+        # self.productName = productID
+        # Would love to find a way to add nice text to this withbout having to load the
+        # whole encyclopedia of ID's & names every time it is called?
+
+    def __str__(self):
+        return f"{self.quantity} of Q{self.quality} #{self.productID} for {self.price} each sold by {self.sellerName}."
+
