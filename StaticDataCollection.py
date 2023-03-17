@@ -286,10 +286,10 @@ def UpdateEncyclopedia():
 
 
 
-    # UpdateResources()
-    # UpdateBuildings()
-    # UpdateExchangeBase()
-    # CreateEntrepeneurVersions()
+    UpdateResources()
+    UpdateBuildings()
+    UpdateExchangeBase()
+    CreateEntrepeneurVersions()
     CalculateEndpointFrequencies("Entrepreneurs")
     CalculateEndpointFrequencies("Magnates")
 

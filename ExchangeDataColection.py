@@ -317,11 +317,6 @@ def TakeExchangeSnapshot(realm):
 
         reportAndSleep()
         # print("Finished writing to file")
-c = 0
-while True:
-    if c % 10 == 0:
-        print("Loop", c)
-    TakeExchangeSnapshot("Entrepreneurs")
-    TakeExchangeSnapshot("Magnates")
-    c += 1
-    time.sleep(1)
+
+TakeExchangeSnapshot("Entrepreneurs")
+TakeExchangeSnapshot("Magnates")
