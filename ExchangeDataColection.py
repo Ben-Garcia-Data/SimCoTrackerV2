@@ -318,5 +318,11 @@ def TakeExchangeSnapshot(realm):
         reportAndSleep()
         # print("Finished writing to file")
 
-TakeExchangeSnapshot("Entrepreneurs")
-TakeExchangeSnapshot("Magnates")
+startJobTime = time.time()
+currentTime = time.time()
+while currentTime-startJobTime < 55:
+    # We run repeatedly for 55 seconds, so that the process can be called once a minute.
+    TakeExchangeSnapshot("Entrepreneurs")
+    TakeExchangeSnapshot("Magnates")
+    time.sleep(1)
+    currentTime = time.time()
