@@ -1,0 +1,30 @@
+{
+    "db_letter": "b",
+    "image": "images/landscape/breeding-research-lvl1.png",
+    "images": [
+        "images/landscape/breeding-research-lvl1.png",
+        "images/landscape/breeding-research-lvl2.png",
+        "images/landscape/breeding-research-lvl3.png"
+    ],
+    "name": "Breeding laboratory",
+    "category": "research",
+    "cost": 96600,
+    "robotsNeeded": 19.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Breeding research",
+            "image": "images/resources/breeding-research.png",
+            "db_letter": 33,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 28.0,
+    "hours": 5.0,
+    "wages": 414.0
+}

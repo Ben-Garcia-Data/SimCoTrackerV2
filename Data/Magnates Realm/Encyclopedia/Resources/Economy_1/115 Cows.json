@@ -1,0 +1,85 @@
+{
+    "name": "Cows",
+    "image": "images/resources/cow.png",
+    "db_letter": 115,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Water",
+                "image": "images/resources/water.png",
+                "db_letter": 2,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 16
+        },
+        {
+            "resource": {
+                "name": "Fodder",
+                "image": "images/resources/fodder.png",
+                "db_letter": 139,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 12
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "F",
+        "image": "images/landscape/farm-lvl1.png",
+        "images": [
+            "images/landscape/farm-lvl1.png",
+            "images/landscape/farm-lvl2.png"
+        ],
+        "name": "Farm",
+        "category": "production",
+        "cost": 10350,
+        "robotsNeeded": 2.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Steak",
+            "image": "images/resources/steak.png",
+            "db_letter": 7,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Leather",
+            "image": "images/resources/leather.png",
+            "db_letter": 46,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 37.67544809821799,
+    "baseSalary": 138.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

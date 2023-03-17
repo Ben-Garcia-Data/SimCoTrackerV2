@@ -1,0 +1,126 @@
+{
+    "name": "Processors",
+    "image": "images/resources/processors.png",
+    "db_letter": 20,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Silicon",
+                "image": "images/resources/silicon.png",
+                "db_letter": 16,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 4
+        },
+        {
+            "resource": {
+                "name": "Chemicals",
+                "image": "images/resources/chemicals.png",
+                "db_letter": 17,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 1
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "L",
+        "image": "images/landscape/efactory4-lvl1.png",
+        "images": [
+            "images/landscape/efactory4-lvl1.png",
+            "images/landscape/efactory4-lvl2.png",
+            "images/landscape/efactory4-lvl3.png"
+        ],
+        "name": "Electronics factory",
+        "category": "production",
+        "cost": 82800,
+        "robotsNeeded": 16.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Smart phones",
+            "image": "images/resources/smart-phones.png",
+            "db_letter": 24,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Tablets",
+            "image": "images/resources/tablets.png",
+            "db_letter": 25,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Laptops",
+            "image": "images/resources/laptops.png",
+            "db_letter": 26,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Televisions",
+            "image": "images/resources/televisions.png",
+            "db_letter": 28,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Robots",
+            "image": "images/resources/robots.png",
+            "db_letter": 114,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "On-board computer",
+            "image": "images/resources/on-board-computer.png",
+            "db_letter": 47,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 8.769520630411144,
+    "baseSalary": 379.50000000000006,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

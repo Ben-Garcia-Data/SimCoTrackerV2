@@ -1,0 +1,90 @@
+{
+    "db_letter": "k",
+    "image": "images/landscape/food-processing-lvl1.png",
+    "images": [
+        "images/landscape/food-processing-lvl1.png",
+        "images/landscape/food-processing-lvl2.png",
+        "images/landscape/food-processing-lvl3.png"
+    ],
+    "name": "Food processing plant",
+    "category": "production",
+    "cost": 86250,
+    "robotsNeeded": 16.5,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Vegetable oil",
+            "image": "images/resources/vegetable-oil.png",
+            "db_letter": 141,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Pasta",
+            "image": "images/resources/pasta.png",
+            "db_letter": 128,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Butter",
+            "image": "images/resources/butter.png",
+            "db_letter": 134,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Cheese",
+            "image": "images/resources/cheese.png",
+            "db_letter": 122,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Sugar",
+            "image": "images/resources/sugar.png",
+            "db_letter": 135,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Frozen pizza",
+            "image": "images/resources/pizza.png",
+            "db_letter": 127,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Chocolate",
+            "image": "images/resources/chocolate.png",
+            "db_letter": 140,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 25.0,
+    "hours": 6.0,
+    "wages": 379.50000000000006
+}

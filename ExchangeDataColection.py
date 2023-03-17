@@ -10,7 +10,7 @@ import sqlite3
 from Classes import Sale
 
 def generateDBConnection(realm):
-    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm}_Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm}Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
     connection = sqlite3.connect(path)
@@ -35,7 +35,7 @@ def TakeExchangeSnapshot(realm):
         print(realm, "is not a valid input for realm type.")
         raise ValueError
 
-    data_Dir = os.path.join(os.getcwd(), "Data", realm + "_Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", realm + "Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     encyclopedia_Dir = os.path.join(data_Dir, "Encyclopedia")
     building_Dir = os.path.join(encyclopedia_Dir, "Buildings")

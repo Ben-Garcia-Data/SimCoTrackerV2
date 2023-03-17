@@ -1,0 +1,188 @@
+{
+    "name": "Steel",
+    "image": "images/resources/steel.png",
+    "db_letter": 43,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Power",
+                "image": "images/resources/power.png",
+                "db_letter": 1,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 5
+        },
+        {
+            "resource": {
+                "name": "Iron ore",
+                "image": "images/resources/iron-ore.png",
+                "db_letter": 42,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 1
+        },
+        {
+            "resource": {
+                "name": "Chemicals",
+                "image": "images/resources/chemicals.png",
+                "db_letter": 17,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.1
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "Y",
+        "image": "images/landscape/factory-lvl1.png",
+        "images": [
+            "images/landscape/factory-lvl1.png",
+            "images/landscape/factory-lvl2.png"
+        ],
+        "name": "Factory",
+        "category": "production",
+        "cost": 48300,
+        "robotsNeeded": 19.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Electric motor",
+            "image": "images/resources/electric-motor.png",
+            "db_letter": 48,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Car body",
+            "image": "images/resources/car-body.png",
+            "db_letter": 51,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Combustion engine",
+            "image": "images/resources/combustion-engine.png",
+            "db_letter": 52,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Truck",
+            "image": "images/resources/truck.png",
+            "db_letter": 57,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Bulldozer",
+            "image": "images/resources/bulldozer.png",
+            "db_letter": 112,
+            "transportation": 5,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Attitude control",
+            "image": "images/resources/attitude-control.png",
+            "db_letter": 82,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Rocket engine",
+            "image": "images/resources/rocket-engine.png",
+            "db_letter": 86,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Heat shield",
+            "image": "images/resources/heat-shield.png",
+            "db_letter": 87,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Reinforced concrete",
+            "image": "images/resources/reinforced-concrete.png",
+            "db_letter": 101,
+            "transportation": 10,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Steel beams",
+            "image": "images/resources/steel-beams.png",
+            "db_letter": 107,
+            "transportation": 5,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Tools",
+            "image": "images/resources/tools.png",
+            "db_letter": 110,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 202.9110343080451,
+    "baseSalary": 414.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

@@ -1,0 +1,29 @@
+{
+    "db_letter": "E",
+    "image": "images/landscape/powerplant-lvl1.png",
+    "images": [
+        "images/landscape/powerplant-lvl1.png",
+        "images/landscape/powerplant-lvl2.png"
+    ],
+    "name": "Power plant",
+    "category": "production",
+    "cost": 51750,
+    "robotsNeeded": 19.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Power",
+            "image": "images/resources/power.png",
+            "db_letter": 1,
+            "transportation": 0,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 15.0,
+    "hours": 3.0,
+    "wages": 414.0
+}

@@ -1,0 +1,143 @@
+{
+    "name": "Batteries",
+    "image": "images/resources/batteries.png",
+    "db_letter": 22,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Chemicals",
+                "image": "images/resources/chemicals.png",
+                "db_letter": 17,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 4
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "L",
+        "image": "images/landscape/efactory4-lvl1.png",
+        "images": [
+            "images/landscape/efactory4-lvl1.png",
+            "images/landscape/efactory4-lvl2.png",
+            "images/landscape/efactory4-lvl3.png"
+        ],
+        "name": "Electronics factory",
+        "category": "production",
+        "cost": 82800,
+        "robotsNeeded": 16.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Smart phones",
+            "image": "images/resources/smart-phones.png",
+            "db_letter": 24,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Tablets",
+            "image": "images/resources/tablets.png",
+            "db_letter": 25,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Laptops",
+            "image": "images/resources/laptops.png",
+            "db_letter": 26,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Economy e-car",
+            "image": "images/resources/economy-e-car.png",
+            "db_letter": 53,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury e-car",
+            "image": "images/resources/luxury-e-car.png",
+            "db_letter": 54,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Attitude control",
+            "image": "images/resources/attitude-control.png",
+            "db_letter": 82,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Ion drive",
+            "image": "images/resources/ion-drive.png",
+            "db_letter": 88,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Quadcopter",
+            "image": "images/resources/quadcopter.png",
+            "db_letter": 98,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Tools",
+            "image": "images/resources/tools.png",
+            "db_letter": 110,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 26.502168513529494,
+    "baseSalary": 379.50000000000006,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

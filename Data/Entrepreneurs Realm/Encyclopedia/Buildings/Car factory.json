@@ -1,0 +1,109 @@
+{
+    "db_letter": "1",
+    "image": "images/landscape/carfactory-lvl1.png",
+    "images": [
+        "images/landscape/carfactory-lvl1.png",
+        "images/landscape/carfactory-lvl2.png"
+    ],
+    "name": "Car factory",
+    "category": "production",
+    "cost": 93150,
+    "robotsNeeded": 21.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Luxury car interior",
+            "image": "images/resources/luxury-car-interior.png",
+            "db_letter": 49,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Basic interior",
+            "image": "images/resources/car-interior.png",
+            "db_letter": 50,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Car body",
+            "image": "images/resources/car-body.png",
+            "db_letter": 51,
+            "transportation": 2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Economy e-car",
+            "image": "images/resources/economy-e-car.png",
+            "db_letter": 53,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury e-car",
+            "image": "images/resources/luxury-e-car.png",
+            "db_letter": 54,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Economy car",
+            "image": "images/resources/economy-car.png",
+            "db_letter": 55,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury car",
+            "image": "images/resources/luxury-car.png",
+            "db_letter": 56,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Truck",
+            "image": "images/resources/truck.png",
+            "db_letter": 57,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Bulldozer",
+            "image": "images/resources/bulldozer.png",
+            "db_letter": 112,
+            "transportation": 5,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 27.0,
+    "hours": 6.0,
+    "wages": 448.5
+}

@@ -1,0 +1,105 @@
+{
+    "name": "Golden bars",
+    "image": "images/resources/golden-bars.png",
+    "db_letter": 69,
+    "transportation": 1000,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Power",
+                "image": "images/resources/power.png",
+                "db_letter": 1,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 40
+        },
+        {
+            "resource": {
+                "name": "Gold ore",
+                "image": "images/resources/gold-ore.png",
+                "db_letter": 68,
+                "transportation": 10,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 200
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "Y",
+        "image": "images/landscape/factory-lvl1.png",
+        "images": [
+            "images/landscape/factory-lvl1.png",
+            "images/landscape/factory-lvl2.png"
+        ],
+        "name": "Factory",
+        "category": "production",
+        "cost": 48300,
+        "robotsNeeded": 19.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Luxury watch",
+            "image": "images/resources/gold-watch.png",
+            "db_letter": 70,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Necklace",
+            "image": "images/resources/necklace.png",
+            "db_letter": 71,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "High grade e-comps",
+            "image": "images/resources/high-grade-e-components.png",
+            "db_letter": 79,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury jet",
+            "image": "images/resources/private-jet.png",
+            "db_letter": 96,
+            "transportation": 1000,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1000,
+    "producedAnHour": 29.947688424619344,
+    "baseSalary": 414.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

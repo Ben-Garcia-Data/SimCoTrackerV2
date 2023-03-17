@@ -1,0 +1,129 @@
+{
+    "name": "Combustion engine",
+    "image": "images/resources/combustion-engine.png",
+    "db_letter": 52,
+    "transportation": 2,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Steel",
+                "image": "images/resources/steel.png",
+                "db_letter": 43,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 6
+        },
+        {
+            "resource": {
+                "name": "Chemicals",
+                "image": "images/resources/chemicals.png",
+                "db_letter": 17,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 5
+        },
+        {
+            "resource": {
+                "name": "Electronic components",
+                "image": "images/resources/electronic-components.png",
+                "db_letter": 21,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 5
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "D",
+        "image": "images/landscape/propulsion-2-lvl1.png",
+        "images": [
+            "images/landscape/propulsion-2-lvl1.png",
+            "images/landscape/propulsion-2-lvl2.png",
+            "images/landscape/propulsion-2-lvl3.png"
+        ],
+        "name": "Propulsion factory",
+        "category": "production",
+        "cost": 103500,
+        "robotsNeeded": 31.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Economy car",
+            "image": "images/resources/economy-car.png",
+            "db_letter": 55,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury car",
+            "image": "images/resources/luxury-car.png",
+            "db_letter": 56,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Truck",
+            "image": "images/resources/truck.png",
+            "db_letter": 57,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Bulldozer",
+            "image": "images/resources/bulldozer.png",
+            "db_letter": 112,
+            "transportation": 5,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Single engine plane",
+            "image": "images/resources/single-engine.png",
+            "db_letter": 97,
+            "transportation": 100,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 2,
+    "producedAnHour": 5.596646735354556,
+    "baseSalary": 621.0,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

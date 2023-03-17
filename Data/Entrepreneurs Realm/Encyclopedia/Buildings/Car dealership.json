@@ -1,0 +1,69 @@
+{
+    "db_letter": "2",
+    "image": "images/landscape/car-dealership-lvl1.png",
+    "images": [
+        "images/landscape/car-dealership-lvl1.png",
+        "images/landscape/car-dealership-lvl2.png"
+    ],
+    "name": "Car dealership",
+    "category": "sales",
+    "cost": 20700,
+    "robotsNeeded": 16.5,
+    "realmAvailable": true,
+    "doesProduce": [],
+    "doesSell": [
+        {
+            "name": "Economy e-car",
+            "image": "images/resources/economy-e-car.png",
+            "db_letter": 53,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury e-car",
+            "image": "images/resources/luxury-e-car.png",
+            "db_letter": 54,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Economy car",
+            "image": "images/resources/economy-car.png",
+            "db_letter": 55,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Luxury car",
+            "image": "images/resources/luxury-car.png",
+            "db_letter": 56,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Truck",
+            "image": "images/resources/truck.png",
+            "db_letter": 57,
+            "transportation": 5,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "costUnits": 6.0,
+    "hours": 3.0,
+    "wages": 379.50000000000006
+}
