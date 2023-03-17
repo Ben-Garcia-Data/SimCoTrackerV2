@@ -1,0 +1,64 @@
+{
+    "name": "Transport",
+    "image": "images/resources/transport.png",
+    "db_letter": 13,
+    "transportation": 0,
+    "retailable": null,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Diesel",
+                "image": "images/resources/diesel.png",
+                "db_letter": 12,
+                "transportation": 1,
+                "retailable": true,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.005
+        },
+        {
+            "resource": {
+                "name": "Power",
+                "image": "images/resources/power.png",
+                "db_letter": 1,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.01
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "S",
+        "image": "images/landscape/shipping-lvl1.png",
+        "images": [
+            "images/landscape/shipping-lvl1.png",
+            "images/landscape/shipping-lvl2.png"
+        ],
+        "name": "Shipping depot",
+        "category": "production",
+        "cost": 51750,
+        "robotsNeeded": 12.5,
+        "realmAvailable": true
+    },
+    "neededFor": [],
+    "transportNeeded": 0,
+    "producedAnHour": 3301.574590830761,
+    "baseSalary": 310.5,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

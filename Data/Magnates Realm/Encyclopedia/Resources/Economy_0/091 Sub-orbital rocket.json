@@ -1,0 +1,258 @@
+{
+    "name": "Sub-orbital rocket",
+    "image": "images/resources/sub-orbital-rocket2.png",
+    "db_letter": 91,
+    "transportation": 20,
+    "retailable": true,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Solid fuel booster",
+                "image": "images/resources/solid-rocket.png",
+                "db_letter": 85,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 1
+        },
+        {
+            "resource": {
+                "name": "Sub-orbital 2nd stage",
+                "image": "images/resources/sub-orbital-second-stage.png",
+                "db_letter": 90,
+                "transportation": 20,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": false,
+                "realmAvailable": true
+            },
+            "amount": 1
+        }
+    ],
+    "soldAt": {
+        "db_letter": "B",
+        "image": "images/landscape/sales-offices-2-lvl1.png",
+        "images": [
+            "images/landscape/sales-offices-2-lvl1.png",
+            "images/landscape/sales-offices-2-lvl2.png",
+            "images/landscape/sales-offices-2-lvl3.png"
+        ],
+        "name": "Sales offices",
+        "category": "sales",
+        "cost": 62100,
+        "robotsNeeded": 29.0,
+        "realmAvailable": true
+    },
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "9",
+        "image": "images/landscape/vertical-integration-lvl1.png",
+        "images": [
+            "images/landscape/vertical-integration-lvl1.png",
+            "images/landscape/vertical-integration-lvl2.png",
+            "images/landscape/vertical-integration-lvl3.png"
+        ],
+        "name": "Vertical integration facility",
+        "category": "production",
+        "cost": 113850,
+        "robotsNeeded": 39.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Aerospace research",
+            "image": "images/resources/aero-research.png",
+            "db_letter": 100,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 20,
+    "producedAnHour": 0.6965602670276174,
+    "baseSalary": 759.0000000000001,
+    "averageRetailPrice": 119056.33556682362,
+    "marketSaturation": 4.1505758218559565,
+    "marketSaturationLabel": "almost none",
+    "retailModeling": null,
+    "storeBaseSalary": 586.5,
+    "retailData": [
+        {
+            "amountSold": 14142,
+            "demand": -1.318187129225342,
+            "date": "2023-02-15",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 7049,
+            "demand": -1.1484608257906475,
+            "date": "2023-02-16",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 14986,
+            "demand": -1.3469025168765905,
+            "date": "2023-02-17",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 6395,
+            "demand": -1.1494142372523894,
+            "date": "2023-02-18",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 13611,
+            "demand": -1.2975103350217396,
+            "date": "2023-02-19",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5929,
+            "demand": -1.0874005069915573,
+            "date": "2023-02-20",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 15351,
+            "demand": -1.3130095402335495,
+            "date": "2023-02-21",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 6103,
+            "demand": -1.1065399434961254,
+            "date": "2023-02-22",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 14737,
+            "demand": -1.3057993180419958,
+            "date": "2023-02-23",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 6213,
+            "demand": -1.1061510245439115,
+            "date": "2023-02-24",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 11295,
+            "demand": -1.1668116624768103,
+            "date": "2023-02-25",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 6712,
+            "demand": -1.016594613277638,
+            "date": "2023-02-26",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 14035,
+            "demand": -1.2009515848282821,
+            "date": "2023-02-27",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5779,
+            "demand": -1.0024441176307914,
+            "date": "2023-02-28",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 10983,
+            "demand": -1.0614225139721185,
+            "date": "2023-03-01",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 7496,
+            "demand": -0.9630826497339755,
+            "date": "2023-03-02",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 13034,
+            "demand": -1.1199744983725055,
+            "date": "2023-03-03",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5661,
+            "demand": -0.9378298013893211,
+            "date": "2023-03-04",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 12802,
+            "demand": -1.128489129668535,
+            "date": "2023-03-06",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 6322,
+            "demand": -0.9814761530201637,
+            "date": "2023-03-06",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 10730,
+            "demand": -1.0488670301666456,
+            "date": "2023-03-07",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 7681,
+            "demand": -0.9726676498308298,
+            "date": "2023-03-08",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 14199,
+            "demand": -1.1912938888803533,
+            "date": "2023-03-09",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5766,
+            "demand": -1.0025568079402039,
+            "date": "2023-03-10",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 14824,
+            "demand": -1.2531838155054351,
+            "date": "2023-03-11",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5900,
+            "demand": -1.060507971749741,
+            "date": "2023-03-12",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 15004,
+            "demand": -1.295997837087787,
+            "date": "2023-03-13",
+            "label": "almost none"
+        },
+        {
+            "amountSold": 5522,
+            "demand": -1.0752879109279783,
+            "date": "2023-03-14",
+            "label": "almost none"
+        }
+    ],
+    "improvesQualityOf": []
+}

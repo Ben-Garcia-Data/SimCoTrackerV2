@@ -1,0 +1,69 @@
+{
+    "db_letter": "R",
+    "image": "images/landscape/refinery-lvl1.png",
+    "images": [
+        "images/landscape/refinery-lvl1.png",
+        "images/landscape/refinery-lvl2.png"
+    ],
+    "name": "Refinery",
+    "category": "production",
+    "cost": 69000,
+    "robotsNeeded": 23.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Petrol",
+            "image": "images/resources/petrol.png",
+            "db_letter": 11,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Diesel",
+            "image": "images/resources/diesel.png",
+            "db_letter": 12,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Plastic",
+            "image": "images/resources/plastic.png",
+            "db_letter": 19,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Carbon fibers",
+            "image": "images/resources/carbon-fiber.png",
+            "db_letter": 75,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Rocket fuel",
+            "image": "images/resources/rocket-fuel.png",
+            "db_letter": 83,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 20.0,
+    "hours": 4.0,
+    "wages": 482.99999999999994
+}

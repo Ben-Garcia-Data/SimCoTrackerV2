@@ -1,0 +1,70 @@
+{
+    "db_letter": "8",
+    "image": "images/landscape/aero-electronics-2-lvl1.png",
+    "images": [
+        "images/landscape/aero-electronics-2-lvl1.png",
+        "images/landscape/aero-electronics-2-lvl2.png",
+        "images/landscape/aero-electronics-2-lvl3.png"
+    ],
+    "name": "Aerospace electronics",
+    "category": "production",
+    "cost": 141450,
+    "robotsNeeded": 37.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Flight computer",
+            "image": "images/resources/flight-computer.png",
+            "db_letter": 80,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Cockpit",
+            "image": "images/resources/cockpit.png",
+            "db_letter": 81,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Attitude control",
+            "image": "images/resources/attitude-control.png",
+            "db_letter": 82,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Quadcopter",
+            "image": "images/resources/quadcopter.png",
+            "db_letter": 98,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Satellite",
+            "image": "images/resources/satellite.png",
+            "db_letter": 99,
+            "transportation": 10,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": false,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 41.0,
+    "hours": 6.0,
+    "wages": 724.5
+}

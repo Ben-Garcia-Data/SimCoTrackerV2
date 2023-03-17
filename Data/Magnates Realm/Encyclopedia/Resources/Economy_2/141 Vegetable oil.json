@@ -1,0 +1,106 @@
+{
+    "name": "Vegetable oil",
+    "image": "images/resources/vegetable-oil.png",
+    "db_letter": 141,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Vegetables",
+                "image": "images/resources/vegetables.png",
+                "db_letter": 120,
+                "transportation": 0.2,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 10
+        },
+        {
+            "resource": {
+                "name": "Power",
+                "image": "images/resources/power.png",
+                "db_letter": 1,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 1
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "k",
+        "image": "images/landscape/food-processing-lvl1.png",
+        "images": [
+            "images/landscape/food-processing-lvl1.png",
+            "images/landscape/food-processing-lvl2.png",
+            "images/landscape/food-processing-lvl3.png"
+        ],
+        "name": "Food processing plant",
+        "category": "production",
+        "cost": 86250,
+        "robotsNeeded": 16.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Hamburger",
+            "image": "images/resources/hamburger.png",
+            "db_letter": 129,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Meat balls",
+            "image": "images/resources/meatballs.png",
+            "db_letter": 131,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Salad",
+            "image": "images/resources/salad.png",
+            "db_letter": 142,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Samosa",
+            "image": "images/resources/samosas.png",
+            "db_letter": 143,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 35.078082521644575,
+    "baseSalary": 379.50000000000006,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

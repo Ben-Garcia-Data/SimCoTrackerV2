@@ -1,0 +1,76 @@
+{
+    "name": "Wood",
+    "image": "images/resources/wood.png",
+    "db_letter": 106,
+    "transportation": 1,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Water",
+                "image": "images/resources/water.png",
+                "db_letter": 2,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 4
+        },
+        {
+            "resource": {
+                "name": "Seeds",
+                "image": "images/resources/seeds.png",
+                "db_letter": 66,
+                "transportation": 0.1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 1
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "P",
+        "image": "images/landscape/plantation-lvl1.png",
+        "images": [
+            "images/landscape/plantation-lvl1.png",
+            "images/landscape/plantation-lvl2.png",
+            "images/landscape/plantation-lvl3.png"
+        ],
+        "name": "Plantation",
+        "category": "production",
+        "cost": 6900,
+        "robotsNeeded": 0.5,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Planks",
+            "image": "images/resources/planks.png",
+            "db_letter": 108,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 77.84789844538516,
+    "baseSalary": 103.5,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

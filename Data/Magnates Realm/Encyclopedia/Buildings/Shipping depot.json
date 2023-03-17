@@ -1,0 +1,29 @@
+{
+    "db_letter": "S",
+    "image": "images/landscape/shipping-lvl1.png",
+    "images": [
+        "images/landscape/shipping-lvl1.png",
+        "images/landscape/shipping-lvl2.png"
+    ],
+    "name": "Shipping depot",
+    "category": "production",
+    "cost": 51750,
+    "robotsNeeded": 12.5,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Transport",
+            "image": "images/resources/transport.png",
+            "db_letter": 13,
+            "transportation": 0,
+            "retailable": null,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 15.0,
+    "hours": 3.0,
+    "wages": 310.5
+}

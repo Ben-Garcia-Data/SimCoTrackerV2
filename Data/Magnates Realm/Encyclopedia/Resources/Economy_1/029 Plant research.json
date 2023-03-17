@@ -1,0 +1,157 @@
+{
+    "name": "Plant research",
+    "image": "images/resources/plant-research.png",
+    "db_letter": 29,
+    "transportation": 0,
+    "retailable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "p",
+        "image": "images/landscape/plantresearch.png",
+        "images": [
+            "images/landscape/plantresearch.png"
+        ],
+        "name": "Plant research center",
+        "category": "research",
+        "cost": 103500,
+        "robotsNeeded": 21.0,
+        "realmAvailable": true
+    },
+    "neededFor": [],
+    "transportNeeded": 0,
+    "producedAnHour": 4.783200850394605,
+    "baseSalary": 448.5,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": [
+        {
+            "name": "Apples",
+            "image": "images/resources/apples.png",
+            "db_letter": 3,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Oranges",
+            "image": "images/resources/oranges.png",
+            "db_letter": 4,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Grapes",
+            "image": "images/resources/grapes.png",
+            "db_letter": 5,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Grain",
+            "image": "images/resources/grain.png",
+            "db_letter": 6,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Cotton",
+            "image": "images/resources/cotton.png",
+            "db_letter": 40,
+            "transportation": 0.5,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Seeds",
+            "image": "images/resources/seeds.png",
+            "db_letter": 66,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Sugarcane",
+            "image": "images/resources/sugarcane.png",
+            "db_letter": 72,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Wood",
+            "image": "images/resources/wood.png",
+            "db_letter": 106,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Coffee beans",
+            "image": "images/resources/coffee-beans.png",
+            "db_letter": 118,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Cocoa",
+            "image": "images/resources/cocoa-beans.png",
+            "db_letter": 136,
+            "transportation": 0.1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Vegetables",
+            "image": "images/resources/vegetables.png",
+            "db_letter": 120,
+            "transportation": 0.2,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Fodder",
+            "image": "images/resources/fodder.png",
+            "db_letter": 139,
+            "transportation": 1,
+            "retailable": false,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ]
+}

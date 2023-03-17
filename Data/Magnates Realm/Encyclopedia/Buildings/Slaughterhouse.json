@@ -1,0 +1,40 @@
+{
+    "db_letter": "e",
+    "image": "images/landscape/slaughterhouse-lvl1.png",
+    "images": [
+        "images/landscape/slaughterhouse-lvl1.png",
+        "images/landscape/slaughterhouse-lvl2.png",
+        "images/landscape/slaughterhouse-lvl3.png"
+    ],
+    "name": "Slaughterhouse",
+    "category": "production",
+    "cost": 20700,
+    "robotsNeeded": 19.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Steak",
+            "image": "images/resources/steak.png",
+            "db_letter": 7,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Sausages",
+            "image": "images/resources/sausages.png",
+            "db_letter": 8,
+            "transportation": 0.1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 6.0,
+    "hours": 4.0,
+    "wages": 414.0
+}

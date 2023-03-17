@@ -1,0 +1,30 @@
+{
+    "db_letter": "f",
+    "image": "images/landscape/fashion-research-lvl1.png",
+    "images": [
+        "images/landscape/fashion-research-lvl1.png",
+        "images/landscape/fashion-research-lvl1.png",
+        "images/landscape/fashion-research-lvl3.png"
+    ],
+    "name": "Fashion & Design",
+    "category": "research",
+    "cost": 72450,
+    "robotsNeeded": 21.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Fashion research",
+            "image": "images/resources/fashion-research.png",
+            "db_letter": 59,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 21.0,
+    "hours": 2.0,
+    "wages": 448.5
+}

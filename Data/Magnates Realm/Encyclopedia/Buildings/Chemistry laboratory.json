@@ -1,0 +1,40 @@
+{
+    "db_letter": "c",
+    "image": "images/landscape/chemistry-research-lvl1.png",
+    "images": [
+        "images/landscape/chemistry-research-lvl1.png",
+        "images/landscape/chemistry-research-lvl2.png",
+        "images/landscape/chemistry-research-lvl3.png"
+    ],
+    "name": "Chemistry laboratory",
+    "category": "research",
+    "cost": 96600,
+    "robotsNeeded": 19.0,
+    "realmAvailable": true,
+    "doesProduce": [
+        {
+            "name": "Chemistry research",
+            "image": "images/resources/chemistry-research.png",
+            "db_letter": 34,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Materials research",
+            "image": "images/resources/materials-research.png",
+            "db_letter": 113,
+            "transportation": 0,
+            "retailable": false,
+            "research": true,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "doesSell": [],
+    "costUnits": 28.0,
+    "hours": 5.0,
+    "wages": 414.0
+}

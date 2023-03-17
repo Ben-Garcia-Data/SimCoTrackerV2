@@ -1,0 +1,99 @@
+{
+    "name": "Sauce",
+    "image": "images/resources/gravy-boat.png",
+    "db_letter": 138,
+    "transportation": 2,
+    "retailable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Vegetables",
+                "image": "images/resources/vegetables.png",
+                "db_letter": 120,
+                "transportation": 0.2,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 2
+        },
+        {
+            "resource": {
+                "name": "Butter",
+                "image": "images/resources/butter.png",
+                "db_letter": 134,
+                "transportation": 1,
+                "retailable": true,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.5
+        },
+        {
+            "resource": {
+                "name": "Water",
+                "image": "images/resources/water.png",
+                "db_letter": 2,
+                "transportation": 0,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.5
+        }
+    ],
+    "soldAt": null,
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "m",
+        "image": "images/landscape/catering-lvl1.png",
+        "images": [
+            "images/landscape/catering-lvl1.png",
+            "images/landscape/catering-lvl2.png",
+            "images/landscape/catering-lvl3.png"
+        ],
+        "name": "Catering",
+        "category": "production",
+        "cost": 103500,
+        "robotsNeeded": 33.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Lasagna",
+            "image": "images/resources/lasagna.png",
+            "db_letter": 130,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        },
+        {
+            "name": "Meat balls",
+            "image": "images/resources/meatballs.png",
+            "db_letter": 131,
+            "transportation": 2,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 2,
+    "producedAnHour": 0.7821521786189605,
+    "baseSalary": 655.5,
+    "averageRetailPrice": null,
+    "marketSaturation": null,
+    "marketSaturationLabel": null,
+    "retailModeling": null,
+    "storeBaseSalary": null,
+    "retailData": [],
+    "improvesQualityOf": []
+}

@@ -1,0 +1,274 @@
+{
+    "name": "Planks",
+    "image": "images/resources/planks.png",
+    "db_letter": 108,
+    "transportation": 1,
+    "retailable": true,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true,
+    "producedFrom": [
+        {
+            "resource": {
+                "name": "Wood",
+                "image": "images/resources/wood.png",
+                "db_letter": 106,
+                "transportation": 1,
+                "retailable": false,
+                "research": false,
+                "exchangeTradable": true,
+                "realmAvailable": true
+            },
+            "amount": 0.5
+        }
+    ],
+    "soldAt": {
+        "db_letter": "d",
+        "image": "images/landscape/hardware-store-lvl1.png",
+        "images": [
+            "images/landscape/hardware-store-lvl1.png",
+            "images/landscape/hardware-store-lvl2.png",
+            "images/landscape/hardware-store-lvl3.png"
+        ],
+        "name": "Hardware store",
+        "category": "sales",
+        "cost": 13800,
+        "robotsNeeded": 4.5,
+        "realmAvailable": true
+    },
+    "soldAtRestaurant": null,
+    "producedAt": {
+        "db_letter": "x",
+        "image": "images/landscape/construction-factory-lvl1.png",
+        "images": [
+            "images/landscape/construction-factory-lvl1.png",
+            "images/landscape/construction-factory-lvl2.png",
+            "images/landscape/construction-factory-lvl3.png",
+            "images/landscape/construction-factory-lvl4.png"
+        ],
+        "name": "Construction factory",
+        "category": "production",
+        "cost": 72450,
+        "robotsNeeded": 23.0,
+        "realmAvailable": true
+    },
+    "neededFor": [
+        {
+            "name": "Tools",
+            "image": "images/resources/tools.png",
+            "db_letter": 110,
+            "transportation": 1,
+            "retailable": true,
+            "research": false,
+            "exchangeTradable": true,
+            "realmAvailable": true
+        }
+    ],
+    "transportNeeded": 1,
+    "producedAnHour": 122.406280983226,
+    "baseSalary": 482.99999999999994,
+    "averageRetailPrice": 11.314700881890088,
+    "marketSaturation": 0.2816491564450964,
+    "marketSaturationLabel": "extreme",
+    "retailModeling": "(Math.pow(price*4.386382 + (-39.690194 + (saturation - 0.5)/0.370170), 2.000000)*0.221469 + 19.190142)*amount",
+    "storeBaseSalary": 172.5,
+    "retailData": [
+        {
+            "averagePrice": 11.821098670197651,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8537784038474857,
+            "date": "2023-02-15",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.786488006974869,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8531232859081801,
+            "date": "2023-02-16",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.759169385624812,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8576062899081867,
+            "date": "2023-02-17",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.553251853216732,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8577206980358161,
+            "date": "2023-02-18",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.550970538011628,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8649096758279057,
+            "date": "2023-02-19",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.497102366461167,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8636347923455525,
+            "date": "2023-02-20",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.521032620700634,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8640718413559387,
+            "date": "2023-02-21",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.472537123015206,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8652004132347462,
+            "date": "2023-02-22",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.491273253721522,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8687091783088186,
+            "date": "2023-02-23",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.457000383048667,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8683390143534667,
+            "date": "2023-02-24",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.357997696717392,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8779501969505025,
+            "date": "2023-02-25",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.333361057064542,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8781162575150803,
+            "date": "2023-02-26",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.30190687208983,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8824670064139356,
+            "date": "2023-02-27",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.311895650058796,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8828470360507042,
+            "date": "2023-02-28",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.171439048761206,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8834853869747195,
+            "date": "2023-03-01",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.176118907635619,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8843648179033231,
+            "date": "2023-03-02",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.147365243977328,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8854896018264846,
+            "date": "2023-03-03",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.123711472570447,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8826917608623418,
+            "date": "2023-03-04",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 10.973750386410458,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8838485806886095,
+            "date": "2023-03-06",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.109040582235625,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8831684182468355,
+            "date": "2023-03-06",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.07522058860239,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8852820592035713,
+            "date": "2023-03-07",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.112515365177345,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8821749835771664,
+            "date": "2023-03-08",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.051479634632036,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8830552688116113,
+            "date": "2023-03-09",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.171453884146732,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8797878986141441,
+            "date": "2023-03-10",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.236522744728848,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8759698867231778,
+            "date": "2023-03-11",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.278095992171771,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8645102192906655,
+            "date": "2023-03-12",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.262791156659096,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8688809827849437,
+            "date": "2023-03-13",
+            "label": "extreme"
+        },
+        {
+            "averagePrice": 11.314700881890088,
+            "amountSoldRestaurant": 0,
+            "demand": 0.8591754217774518,
+            "date": "2023-03-14",
+            "label": "extreme"
+        }
+    ],
+    "improvesQualityOf": []
+}
