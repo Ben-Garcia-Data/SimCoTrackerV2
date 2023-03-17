@@ -10,7 +10,7 @@ import sqlite3
 from Classes import Sale
 
 def generateDBConnection(realm):
-    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm} Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm}_Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
     connection = sqlite3.connect(path)
@@ -35,7 +35,7 @@ def TakeExchangeSnapshot(realm):
         print(realm, "is not a valid input for realm type.")
         raise ValueError
 
-    data_Dir = os.path.join(os.getcwd(), "Data", realm + " Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", realm + "_Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     encyclopedia_Dir = os.path.join(data_Dir, "Encyclopedia")
     building_Dir = os.path.join(encyclopedia_Dir, "Buildings")
@@ -262,7 +262,6 @@ def TakeExchangeSnapshot(realm):
             completeTime = time.time() - t1
             fetchTime = t3 - t2
             computeTime = completeTime - fetchTime
-
             print("Found", len(sales),name, "sales, took",str(completeTime)[:8] , "seconds.", str(fetchTime)[:8],"to get data,",str(computeTime)[:8],"to compute.", str(timeDiff-targetFreq )[:4], "seconds stale." )
             # print("")
             # time.sleep(0.2)
@@ -318,5 +317,11 @@ def TakeExchangeSnapshot(realm):
         reportAndSleep()
         # print("Finished writing to file")
 
-TakeExchangeSnapshot("Entrepreneurs")
-TakeExchangeSnapshot("Magnates")
+startJobTime = time.time()
+currentTime = time.time()
+while currentTime-startJobTime < 55:
+    # We run repeatedly for 55 seconds, so that the process can be called once a minute.
+    TakeExchangeSnapshot("Entrepreneurs")
+    TakeExchangeSnapshot("Magnates")
+    time.sleep(1)
+    currentTime = time.time()

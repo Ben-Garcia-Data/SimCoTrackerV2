@@ -8,7 +8,7 @@ import sqlite3
 
 
 def generateDBConnection(realm):
-    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm} Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", f"{realm}_Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     path = os.path.join(exchange_Dir, f"SimCompanies_{realm}.db")
     connection = sqlite3.connect(path)
@@ -29,7 +29,7 @@ def UpdateEncyclopedia():
         raise ValueError"""
 
     # Directories commonly used
-    data_Dir = os.path.join(os.getcwd(), "Data", "Magnates Realm")
+    data_Dir = os.path.join(os.getcwd(), "Data", "Magnates_Realm")
     exchange_Dir = os.path.join(data_Dir, "Exchange")
     encyclopedia_Dir = os.path.join(data_Dir, "Encyclopedia")
     building_Dir = os.path.join(encyclopedia_Dir, "Buildings")
@@ -232,7 +232,7 @@ def UpdateEncyclopedia():
 
         print(len(entrepeneurResources))
         json_object = json.dumps(entrepeneurResources, indent=4)
-        entrepeneurResourcesPath = os.path.join(os.getcwd(), "Data", "Entrepreneurs Realm", "Encyclopedia","Resources","Exchange_Resource_List.json")
+        entrepeneurResourcesPath = os.path.join(os.getcwd(), "Data", "Entrepreneurs_Realm", "Encyclopedia","Resources","Exchange_Resource_List.json")
         with open(entrepeneurResourcesPath, "w") as outfile:
             outfile.write(json_object)
 
