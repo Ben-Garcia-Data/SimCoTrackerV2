@@ -25,7 +25,7 @@ def TakeExchangeSnapshot(realm):
     # Move the previous product snapshots into the 'previous' folder, overwriting the file already there.
     # Request data of filtered product list via DB number & save that data into 'latest'
     # Work out all the products which have left the exchange since we last checked. Ideally also filter out potential 'removed' rather than 'sold' products, but be careful of quality implications.
-    print("Taking a snapshot of the", realm, "Realm")
+    # print("Taking a snapshot of the", realm, "Realm")
 
     if realm == "Entrepreneurs":
         realmID = "1"
@@ -49,7 +49,7 @@ def TakeExchangeSnapshot(realm):
     for resource in resourceList:
         t1 = time.time()
         name = resource['name']
-        print(resource)
+        # print(resource)
         product_DB_Num = resource["db_letter"]
         url = f"https://www.simcompanies.com/api/v3/market/{realmID}/{product_DB_Num}/"
         old_resource_path = os.path.join(exchange_Dir, "Previous", name + " Exchange Snapshot.json")
@@ -60,7 +60,7 @@ def TakeExchangeSnapshot(realm):
             cur, con = generateDBConnection(realm)
             cur.execute(f'SELECT latest, TargetFreq FROM frequencies WHERE productID = {product_DB_Num}')
             res = cur.fetchall()
-            print(res)
+            # print(res)
             prevTime = res[0][0]
             targetFreq = res[0][1]
             # None shows this product has not had a time recorded into the database. Probably the first time we are
@@ -72,11 +72,12 @@ def TakeExchangeSnapshot(realm):
                     # If the difference between the current time and the previous scan time is larger than target time,
                     # skip this loop.
                     continue
-                print("We should have checked",name, str(timeDiff-targetFreq)[:4], "seconds ago")
+                # print("We should have checked",name, str(timeDiff-targetFreq)[:4], "seconds ago")
         except Exception as e:
-            print(e)
-            print(res)
-            print("Unable to find a target time for",name)
+            # print(e)
+            # print(res)
+            # print("Unable to find a target time for",name)
+            continue
 
         # Time to reference when creating a best estimate of the sale time/date of the product.
         newTime = int(time.time())
@@ -84,8 +85,9 @@ def TakeExchangeSnapshot(realm):
             oldTime = os.path.getmtime(new_resource_path)
             saleTime = newTime - (0.5 * (newTime - oldTime))
         except FileNotFoundError:
-            print("Couldn't1 find file to get timestamp. Assuming this is our first run. I will assign a value to "
-                  "saleTime here but it shouldn't1 actually be referenced because there won't1 be any sales.")
+            print("Couldn't find file to get timestamp. Assuming this is our first run or we just crashed and restarted."
+                  "I will assign a value to saleTime here but it shouldn't actually be referenced because there "
+                  "won't be any sales.")
             saleTime = newTime
             pass
 
@@ -261,9 +263,9 @@ def TakeExchangeSnapshot(realm):
             fetchTime = t3 - t2
             computeTime = completeTime - fetchTime
 
-            print("Found", len(sales), "sales, took",str(completeTime)[:8] , "seconds.", str(fetchTime)[:8],"to get data,",str(computeTime)[:8],"to compute." )
+            print("Found", len(sales),name, "sales, took",str(completeTime)[:8] , "seconds.", str(fetchTime)[:8],"to get data,",str(computeTime)[:8],"to compute.", str(timeDiff-targetFreq )[:4], "seconds stale." )
             # print("")
-            time.sleep(0.2)
+            # time.sleep(0.2)
 
         def UpdateFrequencies():
             # Update the latest frequency we have searched this product.
@@ -315,8 +317,11 @@ def TakeExchangeSnapshot(realm):
 
         reportAndSleep()
         # print("Finished writing to file")
-
-for i in range(200):
-    print("Loop", i)
+c = 0
+while True:
+    if c % 10 == 0:
+        print("Loop", c)
     TakeExchangeSnapshot("Entrepreneurs")
     TakeExchangeSnapshot("Magnates")
+    c += 1
+    time.sleep(1)

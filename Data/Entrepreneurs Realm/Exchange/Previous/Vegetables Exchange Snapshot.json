@@ -1,168 +1,68 @@
 [
     {
-        "id": 54927265,
+        "id": 54951914,
         "kind": 120,
-        "quantity": 2336,
+        "quantity": 4876,
         "quality": 0,
-        "price": 2.0,
+        "price": 2.05,
         "seller": {
-            "id": 2591585,
-            "company": "G Trade Ltd.",
+            "id": 2899871,
+            "company": "SK805 inc",
             "realmId": 1,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "809438"
+            "ip": "135522"
         },
-        "posted": "2023-03-16T23:30:24.639883+00:00",
-        "fees": 141
+        "posted": "2023-03-17T10:23:46.807725+00:00",
+        "fees": 54
     },
     {
-        "id": 54925123,
+        "id": 54951787,
         "kind": 120,
-        "quantity": 11790,
-        "quality": 1,
-        "price": 2.05,
-        "seller": {
-            "id": 2589661,
-            "company": "Tempest",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "3f93e7"
-        },
-        "posted": "2023-03-16T22:43:39.609923+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54927257,
-        "kind": 120,
-        "quantity": 635,
-        "quality": 1,
-        "price": 2.05,
-        "seller": {
-            "id": 2591585,
-            "company": "G Trade Ltd.",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "809438"
-        },
-        "posted": "2023-03-16T23:30:16.695960+00:00",
-        "fees": 40
-    },
-    {
-        "id": 54918181,
-        "kind": 120,
-        "quantity": 1,
-        "quality": 0,
-        "price": 2.05,
-        "seller": {
-            "id": 2581815,
-            "company": "Sunny Side Entrepreneur",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/fe0da412a22dbf1c49c4f02990e23172aaeef773.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "ca3024"
-        },
-        "posted": "2023-03-16T20:36:51.313189+00:00",
-        "fees": 1
-    },
-    {
-        "id": 54921185,
-        "kind": 120,
-        "quantity": 4378,
-        "quality": 0,
-        "price": 2.05,
-        "seller": {
-            "id": 2988381,
-            "company": "Ludinho",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "301ebe"
-        },
-        "posted": "2023-03-16T21:26:00.487794+00:00",
-        "fees": 270
-    },
-    {
-        "id": 54927632,
-        "kind": 120,
-        "quantity": 1500,
-        "quality": 0,
-        "price": 2.05,
-        "seller": {
-            "id": 2821404,
-            "company": "Veidt Enterprises",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/1f34a37a88678ab319370e9a83579aa551c28b39.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "d49240"
-        },
-        "posted": "2023-03-16T23:38:57.458668+00:00",
-        "fees": 93
-    },
-    {
-        "id": 54870507,
-        "kind": 120,
-        "quantity": 4977,
+        "quantity": 4609,
         "quality": 0,
         "price": 2.1,
         "seller": {
-            "id": 2585944,
-            "company": "Crow3 Industrial E",
+            "id": 2987409,
+            "company": "Consoni",
             "realmId": 1,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "085b7d"
+            "ip": "bee91d"
         },
-        "posted": "2023-03-16T04:04:59.094424+00:00",
-        "fees": 0
+        "posted": "2023-03-17T10:20:36.748665+00:00",
+        "fees": 291
     },
     {
-        "id": 54864262,
+        "id": 54952539,
         "kind": 120,
-        "quantity": 3775,
+        "quantity": 10840,
         "quality": 1,
         "price": 2.15,
         "seller": {
-            "id": 2583447,
-            "company": "Banco de Desenvolvimento",
+            "id": 2604298,
+            "company": "GBHOLDING",
             "realmId": 1,
-            "logo": "",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/04ea79a5095ff3ac729fc4f4104aa941492ce36d.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "1ba4a8"
+            "ip": "5ce87d"
         },
-        "posted": "2023-03-16T00:54:30.406377+00:00",
-        "fees": 0
+        "posted": "2023-03-17T10:38:15.812267+00:00",
+        "fees": 700
     },
     {
-        "id": 54875990,
+        "id": 54953444,
         "kind": 120,
-        "quantity": 19821,
+        "quantity": 10110,
         "quality": 1,
         "price": 2.15,
         "seller": {
@@ -174,15 +74,15 @@
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "0b6f8f"
+            "ip": "8ff744"
         },
-        "posted": "2023-03-16T06:19:10.255248+00:00",
-        "fees": 1279
+        "posted": "2023-03-17T10:57:06.995745+00:00",
+        "fees": 653
     },
     {
         "id": 54631881,
         "kind": 120,
-        "quantity": 3332,
+        "quantity": 2932,
         "quality": 0,
         "price": 2.15,
         "seller": {
@@ -400,6 +300,26 @@
         "fees": 1146
     },
     {
+        "id": 54948843,
+        "kind": 120,
+        "quantity": 1268,
+        "quality": 0,
+        "price": 2.2,
+        "seller": {
+            "id": 2836149,
+            "company": "Wit Leeu",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/b7bbe9b16e72ae84308c42c943c7df37887deee4.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "deb6f8"
+        },
+        "posted": "2023-03-17T09:12:19.932813+00:00",
+        "fees": 84
+    },
+    {
         "id": 54567982,
         "kind": 120,
         "quantity": 3449,
@@ -520,6 +440,26 @@
         "fees": 365
     },
     {
+        "id": 54946573,
+        "kind": 120,
+        "quantity": 1698,
+        "quality": 1,
+        "price": 2.3,
+        "seller": {
+            "id": 2972904,
+            "company": "AVENTIS",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "f45826"
+        },
+        "posted": "2023-03-17T08:15:29.056713+00:00",
+        "fees": 118
+    },
+    {
         "id": 54508243,
         "kind": 120,
         "quantity": 6152,
@@ -580,26 +520,6 @@
         "fees": 11
     },
     {
-        "id": 54826491,
-        "kind": 120,
-        "quantity": 700,
-        "quality": 2,
-        "price": 2.35,
-        "seller": {
-            "id": 2604298,
-            "company": "GBHOLDING",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/04ea79a5095ff3ac729fc4f4104aa941492ce36d.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5ce87d"
-        },
-        "posted": "2023-03-15T12:17:01.443810+00:00",
-        "fees": 0
-    },
-    {
         "id": 54740980,
         "kind": 120,
         "quantity": 11991,
@@ -638,26 +558,6 @@
         },
         "posted": "2023-03-11T13:34:08.374899+00:00",
         "fees": 288
-    },
-    {
-        "id": 54414815,
-        "kind": 120,
-        "quantity": 10840,
-        "quality": 1,
-        "price": 2.45,
-        "seller": {
-            "id": 2604298,
-            "company": "GBHOLDING",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/04ea79a5095ff3ac729fc4f4104aa941492ce36d.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "f225d2"
-        },
-        "posted": "2023-03-09T09:45:58.441482+00:00",
-        "fees": 797
     },
     {
         "id": 54750506,

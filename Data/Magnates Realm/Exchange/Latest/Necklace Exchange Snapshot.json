@@ -1,68 +1,8 @@
 [
     {
-        "id": 54835242,
-        "kind": 71,
-        "quantity": 387,
-        "quality": 4,
-        "price": 1490.0,
-        "seller": {
-            "id": 1806531,
-            "company": "ORO Y ALUMINIO",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/80b0cb00ae7cecc15c7445fbf119f766c6c4485b.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "0e4d4c"
-        },
-        "posted": "2023-03-15T15:22:13.310076+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54638018,
-        "kind": 71,
-        "quantity": 182,
-        "quality": 0,
-        "price": 1490.0,
-        "seller": {
-            "id": 626932,
-            "company": "JackBo",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 3,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "d59100"
-        },
-        "posted": "2023-03-12T17:08:35.938916+00:00",
-        "fees": 0
-    },
-    {
-        "id": 54864631,
-        "kind": 71,
-        "quantity": 45,
-        "quality": 0,
-        "price": 1490.0,
-        "seller": {
-            "id": 2567134,
-            "company": "Monter au Desir",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/032881973e414fa47cc41b524afd4b27f86c2b32.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "8770cd"
-        },
-        "posted": "2023-03-16T01:04:06.965604+00:00",
-        "fees": 2012
-    },
-    {
         "id": 54924338,
         "kind": 71,
-        "quantity": 56,
+        "quantity": 24,
         "quality": 0,
         "price": 1490.0,
         "seller": {
@@ -77,12 +17,32 @@
             "ip": "29580b"
         },
         "posted": "2023-03-16T22:26:11.978949+00:00",
-        "fees": 2504
+        "fees": 0
+    },
+    {
+        "id": 54933738,
+        "kind": 71,
+        "quantity": 4,
+        "quality": 0,
+        "price": 1490.0,
+        "seller": {
+            "id": 2973600,
+            "company": "Garden Yeti Goods",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "15ca0b"
+        },
+        "posted": "2023-03-17T02:44:49.973895+00:00",
+        "fees": 179
     },
     {
         "id": 54617578,
         "kind": 71,
-        "quantity": 485,
+        "quantity": 405,
         "quality": 4,
         "price": 1500.0,
         "seller": {
@@ -118,26 +78,6 @@
         },
         "posted": "2023-03-11T21:30:18.575155+00:00",
         "fees": 0
-    },
-    {
-        "id": 54415563,
-        "kind": 71,
-        "quantity": 40,
-        "quality": 2,
-        "price": 1510.0,
-        "seller": {
-            "id": 1620688,
-            "company": "Fritz Fashion",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4f84723dd0c78c2f468dedc549521ac2cf04d847.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "58e504"
-        },
-        "posted": "2023-03-09T10:04:10.074923+00:00",
-        "fees": 1812
     },
     {
         "id": 54577258,
@@ -178,26 +118,6 @@
         },
         "posted": "2023-03-13T12:15:51.159577+00:00",
         "fees": 14678
-    },
-    {
-        "id": 54433289,
-        "kind": 71,
-        "quantity": 780,
-        "quality": 2,
-        "price": 1520.0,
-        "seller": {
-            "id": 834710,
-            "company": "JMchemnitz",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 2,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "6fd240"
-        },
-        "posted": "2023-03-09T15:54:23.774315+00:00",
-        "fees": 35568
     },
     {
         "id": 54333464,
@@ -318,6 +238,26 @@
         },
         "posted": "2023-03-12T09:19:11.383192+00:00",
         "fees": 15543
+    },
+    {
+        "id": 54951472,
+        "kind": 71,
+        "quantity": 104,
+        "quality": 0,
+        "price": 1650.0,
+        "seller": {
+            "id": 2757964,
+            "company": "CBS empreendimentos LTDA",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0cd663"
+        },
+        "posted": "2023-03-17T10:13:11.819551+00:00",
+        "fees": 5148
     },
     {
         "id": 54897063,

@@ -20,9 +20,29 @@
         "fees": 0
     },
     {
+        "id": 54938324,
+        "kind": 124,
+        "quantity": 600,
+        "quality": 0,
+        "price": 28.75,
+        "seller": {
+            "id": 2590927,
+            "company": "Pierre Bourne and Holdings LLC.",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/0812ba3b36cec663111ea5a65f48ed0f9619a02f.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "7143c9"
+        },
+        "posted": "2023-03-17T05:08:08.196436+00:00",
+        "fees": 518
+    },
+    {
         "id": 54915793,
         "kind": 124,
-        "quantity": 6,
+        "quantity": 2817,
         "quality": 2,
         "price": 29.0,
         "seller": {
@@ -36,8 +56,8 @@
             "courseId": null,
             "ip": "2a90fe"
         },
-        "posted": "2023-03-16T19:56:32.194701+00:00",
-        "fees": 0
+        "posted": "2023-03-17T03:25:19.118031+00:00",
+        "fees": 2446
     },
     {
         "id": 54901784,

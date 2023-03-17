@@ -1,50 +1,90 @@
 [
     {
-        "id": 54927461,
+        "id": 54956219,
         "kind": 118,
-        "quantity": 8087,
-        "quality": 1,
+        "quantity": 56191,
+        "quality": 0,
         "price": 0.68,
         "seller": {
-            "id": 2585846,
-            "company": "Green Apple Energy Corporation.",
+            "id": 2777313,
+            "company": "Menhir entreprise",
             "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/ff75addc7d89124dddae3c1a25fd032acdcd10cd.png",
+            "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "d848a5"
+            "ip": "a0d090"
         },
-        "posted": "2023-03-16T23:34:30.409008+00:00",
-        "fees": 165
+        "posted": "2023-03-17T11:53:04.409871+00:00",
+        "fees": 1147
     },
     {
-        "id": 54911536,
+        "id": 54953476,
         "kind": 118,
-        "quantity": 12134,
+        "quantity": 239404,
+        "quality": 0,
+        "price": 0.685,
+        "seller": {
+            "id": 2585773,
+            "company": "CACS Ind. e Comerc. Ltda",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "236577"
+        },
+        "posted": "2023-03-17T10:57:34.079622+00:00",
+        "fees": 4256
+    },
+    {
+        "id": 54952963,
+        "kind": 118,
+        "quantity": 138733,
         "quality": 0,
         "price": 0.69,
         "seller": {
-            "id": 2595266,
-            "company": "Soc.Prod.Moda",
+            "id": 2620699,
+            "company": "Cia. de Ideias e Negocios Ltda.",
             "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/081546ad2ecdf89f2e3ddf54e720c2d0fbe832c6.png",
+            "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "3167de"
+            "ip": "236577"
         },
-        "posted": "2023-03-16T18:40:50.065932+00:00",
-        "fees": 0
+        "posted": "2023-03-17T10:47:27.081110+00:00",
+        "fees": 864
     },
     {
-        "id": 54912560,
+        "id": 54952384,
         "kind": 118,
-        "quantity": 8969,
+        "quantity": 74425,
         "quality": 0,
-        "price": 0.69,
+        "price": 0.695,
+        "seller": {
+            "id": 2585077,
+            "company": "Lulik s.r.o",
+            "realmId": 1,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "d1a241"
+        },
+        "posted": "2023-03-17T10:34:46.592119+00:00",
+        "fees": 1552
+    },
+    {
+        "id": 54936005,
+        "kind": 118,
+        "quantity": 1459,
+        "quality": 0,
+        "price": 0.7,
         "seller": {
             "id": 2600470,
             "company": "Clints Grocery",
@@ -54,155 +94,15 @@
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "5cfb1f"
+            "ip": "2c6ef6"
         },
-        "posted": "2023-03-16T19:00:00.161447+00:00",
-        "fees": 186
-    },
-    {
-        "id": 54913071,
-        "kind": 118,
-        "quantity": 37000,
-        "quality": 0,
-        "price": 0.69,
-        "seller": {
-            "id": 2589719,
-            "company": "Cfaniaq",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5f3810"
-        },
-        "posted": "2023-03-16T19:08:22.978662+00:00",
-        "fees": 766
-    },
-    {
-        "id": 54906791,
-        "kind": 118,
-        "quantity": 190,
-        "quality": 0,
-        "price": 0.695,
-        "seller": {
-            "id": 2937845,
-            "company": "Aka.Products",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/07b66a8011aabb46576293ef78acb09d088dc1d5.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "b403e4"
-        },
-        "posted": "2023-03-16T17:07:54.611849+00:00",
-        "fees": 4
-    },
-    {
-        "id": 54907385,
-        "kind": 118,
-        "quantity": 112887,
-        "quality": 0,
-        "price": 0.695,
-        "seller": {
-            "id": 2582403,
-            "company": "Cicciofarm",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "76578f"
-        },
-        "posted": "2023-03-16T17:20:09.163723+00:00",
-        "fees": 2354
-    },
-    {
-        "id": 54919113,
-        "kind": 118,
-        "quantity": 81181,
-        "quality": 1,
-        "price": 0.7,
-        "seller": {
-            "id": 2554778,
-            "company": "Bobokis",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "7d849c"
-        },
-        "posted": "2023-03-16T20:51:57.364724+00:00",
-        "fees": 1705
-    },
-    {
-        "id": 54927442,
-        "kind": 118,
-        "quantity": 110000,
-        "quality": 1,
-        "price": 0.7,
-        "seller": {
-            "id": 2592655,
-            "company": "LongarmoftheMoore",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "ff2768"
-        },
-        "posted": "2023-03-16T23:34:02.194682+00:00",
-        "fees": 2310
-    },
-    {
-        "id": 54905923,
-        "kind": 118,
-        "quantity": 6759,
-        "quality": 0,
-        "price": 0.7,
-        "seller": {
-            "id": 2595304,
-            "company": "The Local Mall",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "333e28"
-        },
-        "posted": "2023-03-16T16:50:38.665754+00:00",
-        "fees": 142
-    },
-    {
-        "id": 54896381,
-        "kind": 118,
-        "quantity": 237504,
-        "quality": 0,
-        "price": 0.7,
-        "seller": {
-            "id": 2583907,
-            "company": "DANIEL S.A. THE COFFEE MAGNAT",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4e58cb2e49a805bebe88f71bf1c46c5ea5674626.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "7285ad"
-        },
-        "posted": "2023-03-16T22:25:49.355204+00:00",
-        "fees": 2341
+        "posted": "2023-03-17T09:44:44.074701+00:00",
+        "fees": 0
     },
     {
         "id": 54905525,
         "kind": 118,
-        "quantity": 111558,
+        "quantity": 98144,
         "quality": 1,
         "price": 0.705,
         "seller": {
@@ -217,27 +117,47 @@
             "ip": "0a1bc6"
         },
         "posted": "2023-03-16T16:43:29.327431+00:00",
-        "fees": 2360
+        "fees": 0
     },
     {
-        "id": 54886818,
+        "id": 54941132,
         "kind": 118,
-        "quantity": 7727,
-        "quality": 0,
+        "quantity": 100682,
+        "quality": 1,
         "price": 0.705,
         "seller": {
-            "id": 2585077,
-            "company": "Lulik s.r.o",
+            "id": 2593158,
+            "company": "Starnu finest",
+            "realmId": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/014052712b7fee7e8a4e6042fa90811e58ef8008.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0962de"
+        },
+        "posted": "2023-03-17T06:12:05.531684+00:00",
+        "fees": 2130
+    },
+    {
+        "id": 54955695,
+        "kind": 118,
+        "quantity": 15752,
+        "quality": 1,
+        "price": 0.705,
+        "seller": {
+            "id": 2590653,
+            "company": "TI Industries",
             "realmId": 1,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "d1a241"
+            "ip": "913b5a"
         },
-        "posted": "2023-03-16T10:29:18.635004+00:00",
-        "fees": 0
+        "posted": "2023-03-17T11:42:10.424074+00:00",
+        "fees": 334
     },
     {
         "id": 54890769,
@@ -440,49 +360,9 @@
         "fees": 6807
     },
     {
-        "id": 54430926,
-        "kind": 118,
-        "quantity": 20429,
-        "quality": 1,
-        "price": 0.73,
-        "seller": {
-            "id": 2601901,
-            "company": "Beat24",
-            "realmId": 1,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "20c72b"
-        },
-        "posted": "2023-03-09T15:09:14.496445+00:00",
-        "fees": 448
-    },
-    {
-        "id": 54853581,
-        "kind": 118,
-        "quantity": 3000,
-        "quality": 2,
-        "price": 0.74,
-        "seller": {
-            "id": 2583358,
-            "company": "STARBUCKS Corp.",
-            "realmId": 1,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/db60606f89ee3cde6e2bf987dcac55d38ef26e10.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "d5d13b"
-        },
-        "posted": "2023-03-15T21:07:53.586274+00:00",
-        "fees": 0
-    },
-    {
         "id": 54779108,
         "kind": 118,
-        "quantity": 92037,
+        "quantity": 40052,
         "quality": 2,
         "price": 0.75,
         "seller": {

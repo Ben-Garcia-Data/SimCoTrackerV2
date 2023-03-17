@@ -1,28 +1,148 @@
 [
     {
-        "id": 54927695,
+        "id": 54957318,
         "kind": 145,
-        "quantity": 130,
+        "quantity": 1008,
+        "quality": 0,
+        "price": 206.0,
+        "seller": {
+            "id": 1664819,
+            "company": "F.H.U. Kapelan",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/f8066c8722359aed7d007e3b1eb94222ab7241cd.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "ec4e0c"
+        },
+        "posted": "2023-03-17T12:13:56.547364+00:00",
+        "fees": 6230
+    },
+    {
+        "id": 54957149,
+        "kind": 145,
+        "quantity": 27,
         "quality": 0,
         "price": 208.0,
         "seller": {
-            "id": 2970205,
-            "company": "Tetrofuel",
+            "id": 2892092,
+            "company": "Remas Trading Inc.",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2034738ff7cbf72826afec222f51d56866def3e7.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "54550f"
+        },
+        "posted": "2023-03-17T12:11:15.549165+00:00",
+        "fees": 169
+    },
+    {
+        "id": 54957239,
+        "kind": 145,
+        "quantity": 418,
+        "quality": 0,
+        "price": 208.0,
+        "seller": {
+            "id": 1968673,
+            "company": "MK Comercial LTDA",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/99d53aed9e3931adf3e31cebb116ab27d6dfcfb8.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "fe3cd5"
+        },
+        "posted": "2023-03-17T12:12:36.230180+00:00",
+        "fees": 2609
+    },
+    {
+        "id": 54937246,
+        "kind": 145,
+        "quantity": 1002,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1808587,
+            "company": "O.H. Holding",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/0be40a24c19214dc47e8c08af021dbd3468145cf.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "7a3c1e"
+        },
+        "posted": "2023-03-17T04:41:20.391446+00:00",
+        "fees": 0
+    },
+    {
+        "id": 54940249,
+        "kind": 145,
+        "quantity": 273,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 2606120,
+            "company": "New Tradings",
             "realmId": 0,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "4de3bd"
+            "ip": "04861b"
         },
-        "posted": "2023-03-16T23:40:39.106285+00:00",
-        "fees": 812
+        "posted": "2023-03-17T05:54:02.030022+00:00",
+        "fees": 1720
+    },
+    {
+        "id": 54941703,
+        "kind": 145,
+        "quantity": 2616,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 2730523,
+            "company": "Pocke inc corp",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "a3eb4e"
+        },
+        "posted": "2023-03-17T06:23:42.629898+00:00",
+        "fees": 16481
+    },
+    {
+        "id": 54941742,
+        "kind": 145,
+        "quantity": 1008,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1894098,
+            "company": "Misantrophy Incorporated",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/533a011038fc4d32ae3734ac8a0498475b891133.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e63607"
+        },
+        "posted": "2023-03-17T06:24:30.065912+00:00",
+        "fees": 6351
     },
     {
         "id": 54811632,
         "kind": 145,
-        "quantity": 10851,
+        "quantity": 15815,
         "quality": 0,
         "price": 210.0,
         "seller": {
@@ -36,193 +156,33 @@
             "courseId": null,
             "ip": "338b28"
         },
-        "posted": "2023-03-16T18:46:25.529151+00:00",
-        "fees": 0
+        "posted": "2023-03-17T06:42:46.217504+00:00",
+        "fees": 40749
     },
     {
-        "id": 54913985,
+        "id": 54943480,
         "kind": 145,
-        "quantity": 1580,
+        "quantity": 322,
         "quality": 0,
         "price": 210.0,
         "seller": {
-            "id": 1694205,
-            "company": "ErgnAlty",
+            "id": 1815940,
+            "company": "Bena Spa",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/e0d1da2067a2aaa3dcd8d85a465b35ff4893a9ab.png",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/08b2f7ed69d1aa9ac729cd8310f8dbfd645c536c.png",
             "certificates": 1,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "74bc86"
+            "ip": "adb8aa"
         },
-        "posted": "2023-03-16T19:25:23.469233+00:00",
-        "fees": 9954
-    },
-    {
-        "id": 54904556,
-        "kind": 145,
-        "quantity": 98,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 2213550,
-            "company": "Jasulizarazu",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "514243"
-        },
-        "posted": "2023-03-16T19:26:39.730938+00:00",
-        "fees": 619
-    },
-    {
-        "id": 54914096,
-        "kind": 145,
-        "quantity": 488,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 2324401,
-            "company": "Dooorags Company",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "3b2425"
-        },
-        "posted": "2023-03-16T19:27:26.620016+00:00",
-        "fees": 3075
-    },
-    {
-        "id": 54914601,
-        "kind": 145,
-        "quantity": 20,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 3004790,
-            "company": "Lestat city",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5a91d6"
-        },
-        "posted": "2023-03-16T19:35:31.484037+00:00",
-        "fees": 126
-    },
-    {
-        "id": 54915080,
-        "kind": 145,
-        "quantity": 20,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 3000975,
-            "company": "GreenTechPros",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "4dea1f"
-        },
-        "posted": "2023-03-16T19:44:53.388651+00:00",
-        "fees": 126
-    },
-    {
-        "id": 54915811,
-        "kind": 145,
-        "quantity": 288,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 1076921,
-            "company": "Kryos Inc.",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 2,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "0fab80"
-        },
-        "posted": "2023-03-16T19:56:46.420969+00:00",
-        "fees": 1815
-    },
-    {
-        "id": 54810699,
-        "kind": 145,
-        "quantity": 725,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 1753028,
-            "company": "SGTCenny Ink",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "560a26"
-        },
-        "posted": "2023-03-16T20:48:17.155889+00:00",
-        "fees": 4571
-    },
-    {
-        "id": 54923494,
-        "kind": 145,
-        "quantity": 13,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 2314486,
-            "company": "Tatamaran Co.",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/d1f09a0aaf0fb871835046b62124ac5672246b34.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "011573"
-        },
-        "posted": "2023-03-16T22:09:39.326326+00:00",
-        "fees": 82
-    },
-    {
-        "id": 54924601,
-        "kind": 145,
-        "quantity": 338,
-        "quality": 0,
-        "price": 210.0,
-        "seller": {
-            "id": 232375,
-            "company": "Vash Enterprises",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/a2780c2ddbac4d1370e06f84c942b5ecf24b929e.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "53a279"
-        },
-        "posted": "2023-03-16T22:32:01.266296+00:00",
-        "fees": 2130
+        "posted": "2023-03-17T07:03:25.936489+00:00",
+        "fees": 2029
     },
     {
         "id": 54921937,
         "kind": 145,
-        "quantity": 552,
+        "quantity": 1238,
         "quality": 0,
         "price": 210.0,
         "seller": {
@@ -236,8 +196,128 @@
             "courseId": null,
             "ip": "f2eb36"
         },
-        "posted": "2023-03-16T23:10:31.871848+00:00",
-        "fees": 3478
+        "posted": "2023-03-17T07:43:00.823761+00:00",
+        "fees": 7800
+    },
+    {
+        "id": 54935616,
+        "kind": 145,
+        "quantity": 10620,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1102266,
+            "company": "Editor Filozof Fashion",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/47715da56ac9af9fbb1fd450c6e763f034aa91f4.png",
+            "certificates": 5,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e71900"
+        },
+        "posted": "2023-03-17T08:03:49.155813+00:00",
+        "fees": 66906
+    },
+    {
+        "id": 54948269,
+        "kind": 145,
+        "quantity": 62,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1839718,
+            "company": "UPV Technology",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "793fba"
+        },
+        "posted": "2023-03-17T08:59:14.143148+00:00",
+        "fees": 391
+    },
+    {
+        "id": 54949864,
+        "kind": 145,
+        "quantity": 1103,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 2176894,
+            "company": "ASPENDOS RESEARCH",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/70100e28046ae34878fe49dcb8fcefbe7fc2d1a7.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ff83e"
+        },
+        "posted": "2023-03-17T09:37:22.399032+00:00",
+        "fees": 6949
+    },
+    {
+        "id": 54951145,
+        "kind": 145,
+        "quantity": 210,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1950408,
+            "company": "Zetka",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "60c667"
+        },
+        "posted": "2023-03-17T10:06:11.137693+00:00",
+        "fees": 1323
+    },
+    {
+        "id": 54951650,
+        "kind": 145,
+        "quantity": 110,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 2528853,
+            "company": "Xatarg",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/26dd90b137d3a8d0b05eafc024e91bb53839c29d.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "38603c"
+        },
+        "posted": "2023-03-17T10:17:32.874308+00:00",
+        "fees": 693
+    },
+    {
+        "id": 54956922,
+        "kind": 145,
+        "quantity": 1144,
+        "quality": 0,
+        "price": 210.0,
+        "seller": {
+            "id": 1804648,
+            "company": "ZC collective",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/d6e34a063c391c6a090464a5f8e5233f95e0e9e8.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "af10eb"
+        },
+        "posted": "2023-03-17T12:06:48.956337+00:00",
+        "fees": 7208
     },
     {
         "id": 54710111,
@@ -340,26 +420,6 @@
         "fees": 2824
     },
     {
-        "id": 54714016,
-        "kind": 145,
-        "quantity": 160,
-        "quality": 0,
-        "price": 212.0,
-        "seller": {
-            "id": 2447574,
-            "company": "GastroHero",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5c8c2b"
-        },
-        "posted": "2023-03-14T15:53:50.623561+00:00",
-        "fees": 1020
-    },
-    {
         "id": 54771508,
         "kind": 145,
         "quantity": 1379,
@@ -378,46 +438,6 @@
         },
         "posted": "2023-03-14T16:10:46.620532+00:00",
         "fees": 8771
-    },
-    {
-        "id": 54698307,
-        "kind": 145,
-        "quantity": 907,
-        "quality": 0,
-        "price": 212.0,
-        "seller": {
-            "id": 2367727,
-            "company": "BestBeverage",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/01c931d176c97a066afa94e52831f94ca9500603.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "37e486"
-        },
-        "posted": "2023-03-14T17:29:47.161482+00:00",
-        "fees": 5770
-    },
-    {
-        "id": 54781630,
-        "kind": 145,
-        "quantity": 9181,
-        "quality": 0,
-        "price": 212.0,
-        "seller": {
-            "id": 1513179,
-            "company": "Dong87",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "311e4a"
-        },
-        "posted": "2023-03-15T14:16:08.608261+00:00",
-        "fees": 58392
     },
     {
         "id": 54837952,
@@ -478,26 +498,6 @@
         },
         "posted": "2023-03-16T06:46:09.784040+00:00",
         "fees": 46622
-    },
-    {
-        "id": 54681573,
-        "kind": 145,
-        "quantity": 232,
-        "quality": 0,
-        "price": 212.0,
-        "seller": {
-            "id": 1839718,
-            "company": "UPV Technology",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "aa3115"
-        },
-        "posted": "2023-03-16T09:02:46.245137+00:00",
-        "fees": 1477
     },
     {
         "id": 54720585,
@@ -600,24 +600,84 @@
         "fees": 81129
     },
     {
+        "id": 54928750,
+        "kind": 145,
+        "quantity": 369,
+        "quality": 0,
+        "price": 212.0,
+        "seller": {
+            "id": 1600905,
+            "company": "Ricas Ltd",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9880b8b9ceda9f8a60304626013d0a9f6b7dd9d1.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "2b32e2"
+        },
+        "posted": "2023-03-17T00:10:32.809657+00:00",
+        "fees": 2347
+    },
+    {
         "id": 54926648,
         "kind": 145,
-        "quantity": 4,
+        "quantity": 14,
         "quality": 0,
         "price": 212.0,
         "seller": {
             "id": 2947010,
-            "company": "Yo soy NovaTo",
+            "company": "Contratos Futuros SA",
             "realmId": 0,
-            "logo": "",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/09321120b89e326a2581d0b839ba4bd88eedc368.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
             "ip": "c01871"
         },
-        "posted": "2023-03-16T23:16:18.767013+00:00",
-        "fees": 26
+        "posted": "2023-03-17T07:40:43.931538+00:00",
+        "fees": 90
+    },
+    {
+        "id": 54681573,
+        "kind": 145,
+        "quantity": 294,
+        "quality": 0,
+        "price": 212.0,
+        "seller": {
+            "id": 1839718,
+            "company": "UPV Technology",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "aa3115"
+        },
+        "posted": "2023-03-17T08:59:18.565207+00:00",
+        "fees": 1872
+    },
+    {
+        "id": 54954682,
+        "kind": 145,
+        "quantity": 2041,
+        "quality": 0,
+        "price": 212.0,
+        "seller": {
+            "id": 1352580,
+            "company": "Sakdoek corp",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/41064fd6bb959ca04586492a4dd42e1393c7694b.png",
+            "certificates": 1,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "3c14fa"
+        },
+        "posted": "2023-03-17T11:21:11.651524+00:00",
+        "fees": 12981
     },
     {
         "id": 54646369,
@@ -760,26 +820,6 @@
         "fees": 13617
     },
     {
-        "id": 54681576,
-        "kind": 145,
-        "quantity": 232,
-        "quality": 0,
-        "price": 214.0,
-        "seller": {
-            "id": 1839718,
-            "company": "UPV Technology",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "aa3115"
-        },
-        "posted": "2023-03-16T09:02:50.699967+00:00",
-        "fees": 1491
-    },
-    {
         "id": 54704492,
         "kind": 145,
         "quantity": 15154,
@@ -818,6 +858,26 @@
         },
         "posted": "2023-03-16T14:31:05.077191+00:00",
         "fees": 2196
+    },
+    {
+        "id": 54681576,
+        "kind": 145,
+        "quantity": 294,
+        "quality": 0,
+        "price": 214.0,
+        "seller": {
+            "id": 1839718,
+            "company": "UPV Technology",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "aa3115"
+        },
+        "posted": "2023-03-17T08:59:24.563110+00:00",
+        "fees": 1890
     },
     {
         "id": 54647328,
@@ -960,29 +1020,9 @@
         "fees": 6480
     },
     {
-        "id": 54675205,
-        "kind": 145,
-        "quantity": 5500,
-        "quality": 0,
-        "price": 216.0,
-        "seller": {
-            "id": 1326788,
-            "company": "Toolqon",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/ceb0dd0ade97fef3b54924e01a87f76346cd5622.png",
-            "certificates": 5,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "e2ef23"
-        },
-        "posted": "2023-03-14T20:05:33.243339+00:00",
-        "fees": 35643
-    },
-    {
         "id": 54681584,
         "kind": 145,
-        "quantity": 239,
+        "quantity": 301,
         "quality": 0,
         "price": 216.0,
         "seller": {
@@ -996,8 +1036,8 @@
             "courseId": null,
             "ip": "aa3115"
         },
-        "posted": "2023-03-16T09:02:55.713608+00:00",
-        "fees": 1551
+        "posted": "2023-03-17T08:59:31.813348+00:00",
+        "fees": 1953
     },
     {
         "id": 54476592,
@@ -1160,26 +1200,6 @@
         "fees": 86407
     },
     {
-        "id": 54611524,
-        "kind": 145,
-        "quantity": 218,
-        "quality": 0,
-        "price": 218.0,
-        "seller": {
-            "id": 1839718,
-            "company": "UPV Technology",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "aabc14"
-        },
-        "posted": "2023-03-16T09:03:01.246251+00:00",
-        "fees": 1427
-    },
-    {
         "id": 54905113,
         "kind": 145,
         "quantity": 2049,
@@ -1200,104 +1220,24 @@
         "fees": 13401
     },
     {
-        "id": 54407990,
+        "id": 54611524,
         "kind": 145,
-        "quantity": 711,
+        "quantity": 281,
         "quality": 0,
-        "price": 220.0,
+        "price": 218.0,
         "seller": {
-            "id": 2187518,
-            "company": "wiesaw",
+            "id": 1839718,
+            "company": "UPV Technology",
             "realmId": 0,
-            "logo": "",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d3992dbf39cdf5c235c4ec8079632fb79057829.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "da6ab0"
+            "ip": "aabc14"
         },
-        "posted": "2023-03-09T07:09:49.179734+00:00",
-        "fees": 4693
-    },
-    {
-        "id": 54414113,
-        "kind": 145,
-        "quantity": 50,
-        "quality": 0,
-        "price": 220.0,
-        "seller": {
-            "id": 1619091,
-            "company": "BluMatics",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2d22512caac1e9076742205de843799a0038cfb4.png",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "0c6eea"
-        },
-        "posted": "2023-03-09T09:29:16.923391+00:00",
-        "fees": 330
-    },
-    {
-        "id": 54438689,
-        "kind": 145,
-        "quantity": 26,
-        "quality": 0,
-        "price": 220.0,
-        "seller": {
-            "id": 2982438,
-            "company": "Jio mart",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "d0bb0e"
-        },
-        "posted": "2023-03-09T17:37:58.347633+00:00",
-        "fees": 172
-    },
-    {
-        "id": 54454548,
-        "kind": 145,
-        "quantity": 2100,
-        "quality": 0,
-        "price": 220.0,
-        "seller": {
-            "id": 1958898,
-            "company": "Faruna GmbH",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/3c97f107cb76b7cd3a0ce8299fba75de8bb62774.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "2a4556"
-        },
-        "posted": "2023-03-09T22:16:34.174625+00:00",
-        "fees": 13860
-    },
-    {
-        "id": 54473372,
-        "kind": 145,
-        "quantity": 1737,
-        "quality": 0,
-        "price": 220.0,
-        "seller": {
-            "id": 1422685,
-            "company": "Zann Consortium",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 1,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5b3746"
-        },
-        "posted": "2023-03-10T06:12:21.576071+00:00",
-        "fees": 11465
+        "posted": "2023-03-17T08:59:34.987785+00:00",
+        "fees": 1840
     },
     {
         "id": 54476934,
@@ -1718,26 +1658,6 @@
         },
         "posted": "2023-03-04T08:22:14.227369+00:00",
         "fees": 0
-    },
-    {
-        "id": 54407857,
-        "kind": 145,
-        "quantity": 303,
-        "quality": 0,
-        "price": 222.0,
-        "seller": {
-            "id": 2188854,
-            "company": "Metal1992",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "101f37"
-        },
-        "posted": "2023-03-09T07:07:05.749739+00:00",
-        "fees": 2018
     },
     {
         "id": 54507607,
@@ -2182,7 +2102,7 @@
     {
         "id": 54446818,
         "kind": 145,
-        "quantity": 258,
+        "quantity": 303,
         "quality": 0,
         "price": 250.0,
         "seller": {
@@ -2196,13 +2116,13 @@
             "courseId": null,
             "ip": "092354"
         },
-        "posted": "2023-03-10T06:31:51.120624+00:00",
-        "fees": 1935
+        "posted": "2023-03-17T06:20:20.221489+00:00",
+        "fees": 2273
     },
     {
         "id": 52819461,
         "kind": 145,
-        "quantity": 15966,
+        "quantity": 16430,
         "quality": 0,
         "price": 250.0,
         "seller": {
@@ -2216,13 +2136,13 @@
             "courseId": null,
             "ip": "f7fb6a"
         },
-        "posted": "2023-03-16T09:35:12.413444+00:00",
-        "fees": 119754
+        "posted": "2023-03-17T09:14:42.297723+00:00",
+        "fees": 123234
     },
     {
         "id": 52804798,
         "kind": 145,
-        "quantity": 5200,
+        "quantity": 5300,
         "quality": 0,
         "price": 250.0,
         "seller": {
@@ -2236,8 +2156,8 @@
             "courseId": null,
             "ip": "1366da"
         },
-        "posted": "2023-03-16T18:29:00.680935+00:00",
-        "fees": 39000
+        "posted": "2023-03-17T10:17:44.107896+00:00",
+        "fees": 39750
     },
     {
         "id": 54812826,

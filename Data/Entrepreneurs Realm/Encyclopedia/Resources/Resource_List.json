@@ -330,16 +330,6 @@
         "realmAvailable": true
     },
     {
-        "name": "Robots",
-        "image": "images/resources/robots.png",
-        "db_letter": 114,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
         "name": "Cotton",
         "image": "images/resources/cotton.png",
         "db_letter": 40,
@@ -405,116 +395,6 @@
         "db_letter": 46,
         "transportation": 1,
         "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "On-board computer",
-        "image": "images/resources/on-board-computer.png",
-        "db_letter": 47,
-        "transportation": 1,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Electric motor",
-        "image": "images/resources/electric-motor.png",
-        "db_letter": 48,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Luxury car interior",
-        "image": "images/resources/luxury-car-interior.png",
-        "db_letter": 49,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Basic interior",
-        "image": "images/resources/car-interior.png",
-        "db_letter": 50,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Car body",
-        "image": "images/resources/car-body.png",
-        "db_letter": 51,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Combustion engine",
-        "image": "images/resources/combustion-engine.png",
-        "db_letter": 52,
-        "transportation": 2,
-        "retailable": false,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Economy e-car",
-        "image": "images/resources/economy-e-car.png",
-        "db_letter": 53,
-        "transportation": 5,
-        "retailable": true,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Luxury e-car",
-        "image": "images/resources/luxury-e-car.png",
-        "db_letter": 54,
-        "transportation": 5,
-        "retailable": true,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Economy car",
-        "image": "images/resources/economy-car.png",
-        "db_letter": 55,
-        "transportation": 5,
-        "retailable": true,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Luxury car",
-        "image": "images/resources/luxury-car.png",
-        "db_letter": 56,
-        "transportation": 5,
-        "retailable": true,
-        "research": false,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Truck",
-        "image": "images/resources/truck.png",
-        "db_letter": 57,
-        "transportation": 5,
-        "retailable": true,
         "research": false,
         "exchangeTradable": true,
         "realmAvailable": true
@@ -783,16 +663,6 @@
         "name": "Software",
         "image": "images/resources/software.png",
         "db_letter": 35,
-        "transportation": 0,
-        "retailable": false,
-        "research": true,
-        "exchangeTradable": true,
-        "realmAvailable": true
-    },
-    {
-        "name": "Automotive research",
-        "image": "images/resources/automotive-research.png",
-        "db_letter": 58,
         "transportation": 0,
         "retailable": false,
         "research": true,

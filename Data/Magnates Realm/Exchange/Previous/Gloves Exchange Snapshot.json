@@ -1,48 +1,68 @@
 [
     {
-        "id": 54926442,
+        "id": 54953252,
         "kind": 61,
-        "quantity": 1061,
+        "quantity": 1322,
         "quality": 0,
-        "price": 14.9,
+        "price": 14.8,
         "seller": {
-            "id": 2997168,
-            "company": "ABA CORPORATIVE",
+            "id": 2902814,
+            "company": "Zeehond investment",
             "realmId": 0,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "a0eb7d"
+            "ip": "db0cec"
         },
-        "posted": "2023-03-16T23:12:12.128808+00:00",
-        "fees": 475
+        "posted": "2023-03-17T10:53:28.517883+00:00",
+        "fees": 587
     },
     {
-        "id": 54926503,
+        "id": 54934921,
         "kind": 61,
-        "quantity": 1078,
+        "quantity": 2669,
         "quality": 0,
         "price": 14.9,
         "seller": {
-            "id": 2956384,
-            "company": "Fadel H",
+            "id": 2895305,
+            "company": "NovaFire",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/f7903ace7da97796898766c0ca059f9d1b3c6663.png",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/96ac263dfea6bc76b4e4f596e279471b46aaac98.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "92a9fd"
+            "ip": "936a37"
         },
-        "posted": "2023-03-16T23:13:00.022655+00:00",
-        "fees": 482
+        "posted": "2023-03-17T03:28:29.829260+00:00",
+        "fees": 0
+    },
+    {
+        "id": 54952546,
+        "kind": 61,
+        "quantity": 3161,
+        "quality": 0,
+        "price": 14.9,
+        "seller": {
+            "id": 2918229,
+            "company": "JJJR",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "f682e2"
+        },
+        "posted": "2023-03-17T10:38:20.617190+00:00",
+        "fees": 1413
     },
     {
         "id": 54922560,
         "kind": 61,
-        "quantity": 11193,
+        "quantity": 7674,
         "quality": 0,
         "price": 15.0,
         "seller": {
@@ -60,51 +80,51 @@
         "fees": 0
     },
     {
-        "id": 54923155,
+        "id": 54929462,
         "kind": 61,
-        "quantity": 1322,
+        "quantity": 1,
         "quality": 0,
         "price": 15.0,
         "seller": {
-            "id": 2902814,
-            "company": "Zeehond investment",
+            "id": 2997168,
+            "company": "ABA CORPORATIVE",
             "realmId": 0,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "7b3364"
+            "ip": "a0eb7d"
         },
-        "posted": "2023-03-16T22:03:04.483047+00:00",
-        "fees": 595
+        "posted": "2023-03-17T00:31:14.491556+00:00",
+        "fees": 1
     },
     {
-        "id": 54923571,
+        "id": 54942615,
         "kind": 61,
-        "quantity": 2002,
+        "quantity": 5696,
         "quality": 0,
         "price": 15.0,
         "seller": {
-            "id": 2981341,
-            "company": "E.N.Z. COMPANY",
+            "id": 968853,
+            "company": "LighthouseStadium",
             "realmId": 0,
-            "logo": "",
-            "certificates": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/c79507b12bca204eb0b4252dd8c9c173c8a6ecbe.png",
+            "certificates": 2,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "4e2e13"
+            "ip": "fc1b20"
         },
-        "posted": "2023-03-16T22:11:03.749187+00:00",
-        "fees": 901
+        "posted": "2023-03-17T06:43:26.220564+00:00",
+        "fees": 2564
     },
     {
-        "id": 54861057,
+        "id": 54953325,
         "kind": 61,
-        "quantity": 5479,
+        "quantity": 1532,
         "quality": 0,
-        "price": 15.1,
+        "price": 15.0,
         "seller": {
             "id": 2532544,
             "company": "Damamarocks",
@@ -116,8 +136,48 @@
             "courseId": null,
             "ip": "e57aa3"
         },
-        "posted": "2023-03-15T23:30:31.933170+00:00",
+        "posted": "2023-03-17T10:54:39.534012+00:00",
+        "fees": 690
+    },
+    {
+        "id": 54933588,
+        "kind": 61,
+        "quantity": 2405,
+        "quality": 1,
+        "price": 15.1,
+        "seller": {
+            "id": 2643738,
+            "company": "Omegaslim",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "09be85"
+        },
+        "posted": "2023-03-17T02:40:30.004595+00:00",
         "fees": 0
+    },
+    {
+        "id": 54949224,
+        "kind": 61,
+        "quantity": 1586,
+        "quality": 1,
+        "price": 15.1,
+        "seller": {
+            "id": 2870817,
+            "company": "B ELEGANT",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/c898372065af34191083afd334b42414e26ac3f7.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "9ffe55"
+        },
+        "posted": "2023-03-17T09:21:27.935649+00:00",
+        "fees": 719
     },
     {
         "id": 54919762,
@@ -140,9 +200,29 @@
         "fees": 904
     },
     {
+        "id": 54861057,
+        "kind": 61,
+        "quantity": 10135,
+        "quality": 0,
+        "price": 15.1,
+        "seller": {
+            "id": 2532544,
+            "company": "Damamarocks",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e57aa3"
+        },
+        "posted": "2023-03-17T02:33:26.442369+00:00",
+        "fees": 2110
+    },
+    {
         "id": 54880442,
         "kind": 61,
-        "quantity": 24719,
+        "quantity": 6719,
         "quality": 2,
         "price": 15.2,
         "seller": {
@@ -178,6 +258,26 @@
         },
         "posted": "2023-03-16T22:02:54.878231+00:00",
         "fees": 470
+    },
+    {
+        "id": 54937367,
+        "kind": 61,
+        "quantity": 23060,
+        "quality": 4,
+        "price": 15.3,
+        "seller": {
+            "id": 1865373,
+            "company": "G2rift",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/00f9eca13dd22315cb2c9cdb6d36ebb87517e9ee.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "169b09"
+        },
+        "posted": "2023-03-17T04:44:44.728201+00:00",
+        "fees": 10585
     },
     {
         "id": 54912648,
@@ -320,24 +420,24 @@
         "fees": 536
     },
     {
-        "id": 54800950,
+        "id": 54929164,
         "kind": 61,
-        "quantity": 3501,
-        "quality": 0,
-        "price": 15.5,
+        "quantity": 20,
+        "quality": 4,
+        "price": 15.6,
         "seller": {
-            "id": 2895305,
-            "company": "NovaFire",
+            "id": 2539703,
+            "company": "SAMISA E CIA",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/96ac263dfea6bc76b4e4f596e279471b46aaac98.png",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4c925944cca47fa40fed14fb898e36d40938d89b.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "80ac29"
+            "ip": "6fb7c8"
         },
-        "posted": "2023-03-15T01:56:19.559342+00:00",
-        "fees": 0
+        "posted": "2023-03-17T00:21:20.100507+00:00",
+        "fees": 10
     },
     {
         "id": 54860860,
@@ -378,26 +478,6 @@
         },
         "posted": "2023-03-15T22:24:26.595390+00:00",
         "fees": 1559
-    },
-    {
-        "id": 54793319,
-        "kind": 61,
-        "quantity": 1094,
-        "quality": 0,
-        "price": 15.6,
-        "seller": {
-            "id": 2532544,
-            "company": "Damamarocks",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "e57aa3"
-        },
-        "posted": "2023-03-14T22:38:22.844295+00:00",
-        "fees": 512
     },
     {
         "id": 54839143,
@@ -460,6 +540,26 @@
         "fees": 0
     },
     {
+        "id": 54946598,
+        "kind": 61,
+        "quantity": 1586,
+        "quality": 0,
+        "price": 15.8,
+        "seller": {
+            "id": 2464123,
+            "company": "CHVR76",
+            "realmId": 0,
+            "logo": "",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "f7a38d"
+        },
+        "posted": "2023-03-17T08:16:11.126316+00:00",
+        "fees": 752
+    },
+    {
         "id": 54075985,
         "kind": 61,
         "quantity": 300,
@@ -518,25 +618,5 @@
         },
         "posted": "2023-03-14T20:36:23.434088+00:00",
         "fees": 4355
-    },
-    {
-        "id": 54413764,
-        "kind": 61,
-        "quantity": 1,
-        "quality": 0,
-        "price": 18.0,
-        "seller": {
-            "id": 2864214,
-            "company": "Silver Artemis",
-            "realmId": 0,
-            "logo": "",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "3319d9"
-        },
-        "posted": "2023-03-09T09:19:38.944858+00:00",
-        "fees": 1
     }
 ]

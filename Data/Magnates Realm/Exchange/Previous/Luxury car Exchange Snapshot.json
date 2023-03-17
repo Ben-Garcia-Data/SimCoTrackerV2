@@ -1,108 +1,68 @@
 [
     {
-        "id": 54927491,
+        "id": 54953256,
         "kind": 56,
-        "quantity": 16,
-        "quality": 2,
-        "price": 4200.0,
+        "quantity": 44,
+        "quality": 3,
+        "price": 4160.0,
         "seller": {
-            "id": 793505,
-            "company": "Promotech",
+            "id": 453798,
+            "company": "Shop Number 5150",
             "realmId": 0,
-            "logo": "",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/e5b4f14980aeaed63e829b9e774827b705ec80bd.png",
             "certificates": 2,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "bdcc1d"
+            "ip": "e87246"
         },
-        "posted": "2023-03-16T23:35:03.247084+00:00",
-        "fees": 2016
-    },
-    {
-        "id": 54918481,
-        "kind": 56,
-        "quantity": 46,
-        "quality": 2,
-        "price": 4210.0,
-        "seller": {
-            "id": 2108749,
-            "company": "Mythrix Corp",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2fdf74e3c4addb94ff599bc01bf891805cd8ef44.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "04c371"
-        },
-        "posted": "2023-03-16T20:41:22.676955+00:00",
+        "posted": "2023-03-17T10:53:31.768607+00:00",
         "fees": 0
     },
     {
-        "id": 54911246,
+        "id": 54954887,
         "kind": 56,
-        "quantity": 48,
+        "quantity": 14,
         "quality": 1,
-        "price": 4210.0,
+        "price": 4190.0,
         "seller": {
-            "id": 2050566,
-            "company": "Ag6445",
+            "id": 2393819,
+            "company": "Staff Ltda",
             "realmId": 0,
             "logo": "",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "1e8492"
+            "ip": "f3ff07"
         },
-        "posted": "2023-03-16T18:33:43.864233+00:00",
-        "fees": 0
+        "posted": "2023-03-17T11:25:15.533688+00:00",
+        "fees": 1760
     },
     {
-        "id": 54906646,
+        "id": 54952306,
         "kind": 56,
-        "quantity": 125,
-        "quality": 2,
-        "price": 4220.0,
+        "quantity": 120,
+        "quality": 1,
+        "price": 4200.0,
         "seller": {
-            "id": 2670313,
-            "company": "TENTA AUTOS",
+            "id": 2299334,
+            "company": "Interdimension",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/7defec184357bcab9e338e76dc00631490374fa6.png",
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/46407355d1ad4ac50863cc2aa512d425b32a9faf.png",
             "certificates": 0,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "db68a0"
+            "ip": "8c1fd6"
         },
-        "posted": "2023-03-16T17:05:25.312028+00:00",
+        "posted": "2023-03-17T10:33:09.200480+00:00",
         "fees": 0
-    },
-    {
-        "id": 54908262,
-        "kind": 56,
-        "quantity": 14,
-        "quality": 2,
-        "price": 4230.0,
-        "seller": {
-            "id": 1972428,
-            "company": "Dbomber10",
-            "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/3a9443508bcb1cbc52f48806102e25868c82be15.png",
-            "certificates": 0,
-            "contest_wins": 0,
-            "npc": false,
-            "courseId": null,
-            "ip": "5c031f"
-        },
-        "posted": "2023-03-16T17:36:40.056116+00:00",
-        "fees": 1777
     },
     {
         "id": 54909582,
         "kind": 56,
-        "quantity": 45,
+        "quantity": 11,
         "quality": 0,
         "price": 4230.0,
         "seller": {
@@ -116,8 +76,8 @@
             "courseId": null,
             "ip": "d8be52"
         },
-        "posted": "2023-03-16T22:56:09.843717+00:00",
-        "fees": 5711
+        "posted": "2023-03-17T10:33:36.428446+00:00",
+        "fees": 1016
     },
     {
         "id": 54906610,
@@ -160,29 +120,29 @@
         "fees": 1272
     },
     {
-        "id": 54896204,
+        "id": 54943072,
         "kind": 56,
-        "quantity": 132,
-        "quality": 2,
-        "price": 4250.0,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4240.0,
         "seller": {
-            "id": 1573591,
-            "company": "Peach.Simba",
+            "id": 616801,
+            "company": "Hallertauer",
             "realmId": 0,
-            "logo": "",
-            "certificates": 1,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "bfa6ca"
+            "ip": "0ac2dc"
         },
-        "posted": "2023-03-16T13:40:39.553485+00:00",
-        "fees": 16830
+        "posted": "2023-03-17T06:53:21.873062+00:00",
+        "fees": 128
     },
     {
         "id": 54890628,
         "kind": 56,
-        "quantity": 568,
+        "quantity": 559,
         "quality": 1,
         "price": 4250.0,
         "seller": {
@@ -218,6 +178,106 @@
         },
         "posted": "2023-03-16T11:09:29.983700+00:00",
         "fees": 255
+    },
+    {
+        "id": 54943081,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4250.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:53:29.193213+00:00",
+        "fees": 128
+    },
+    {
+        "id": 54954247,
+        "kind": 56,
+        "quantity": 100,
+        "quality": 3,
+        "price": 4260.0,
+        "seller": {
+            "id": 246762,
+            "company": "Lateraluz Motor Group",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2c4b90a4302756c8bd71ecda10a74a0c68c07fe5.png",
+            "certificates": 3,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "409fcb"
+        },
+        "posted": "2023-03-17T11:12:33.907304+00:00",
+        "fees": 12780
+    },
+    {
+        "id": 54943084,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4260.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:53:35.009791+00:00",
+        "fees": 128
+    },
+    {
+        "id": 54939842,
+        "kind": 56,
+        "quantity": 22,
+        "quality": 3,
+        "price": 4270.0,
+        "seller": {
+            "id": 2155160,
+            "company": "Mercedes AMG Petronas F1 Team",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/30e52e62686f8b8c1ad71874304ab8690190f93b.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "f68155"
+        },
+        "posted": "2023-03-17T05:44:16.714207+00:00",
+        "fees": 2819
+    },
+    {
+        "id": 54941685,
+        "kind": 56,
+        "quantity": 337,
+        "quality": 3,
+        "price": 4270.0,
+        "seller": {
+            "id": 1035565,
+            "company": "Kinz Automotives Ltd",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/0713528737031d601b1bcc70447c07b3b5501ee2.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "56e06d"
+        },
+        "posted": "2023-03-17T06:23:17.524476+00:00",
+        "fees": 43170
     },
     {
         "id": 54888961,
@@ -300,9 +360,29 @@
         "fees": 5509
     },
     {
+        "id": 54943091,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4270.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:53:41.090026+00:00",
+        "fees": 129
+    },
+    {
         "id": 54879913,
         "kind": 56,
-        "quantity": 486,
+        "quantity": 247,
         "quality": 3,
         "price": 4280.0,
         "seller": {
@@ -340,6 +420,26 @@
         "fees": 1543
     },
     {
+        "id": 54943097,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4280.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:53:47.451404+00:00",
+        "fees": 129
+    },
+    {
         "id": 54876232,
         "kind": 56,
         "quantity": 5,
@@ -360,6 +460,26 @@
         "fees": 644
     },
     {
+        "id": 54940931,
+        "kind": 56,
+        "quantity": 262,
+        "quality": 3,
+        "price": 4290.0,
+        "seller": {
+            "id": 577778,
+            "company": "Starnu Enterprises",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/e2011c3ba440df6017eefe5ff732c2de9bf4f3f4.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0962de"
+        },
+        "posted": "2023-03-17T06:07:42.767646+00:00",
+        "fees": 33720
+    },
+    {
         "id": 54863828,
         "kind": 56,
         "quantity": 333,
@@ -378,6 +498,26 @@
         },
         "posted": "2023-03-16T00:43:11.754383+00:00",
         "fees": 0
+    },
+    {
+        "id": 54943109,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4290.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:00.884879+00:00",
+        "fees": 129
     },
     {
         "id": 54630215,
@@ -420,24 +560,44 @@
         "fees": 129
     },
     {
-        "id": 54908431,
+        "id": 54943115,
         "kind": 56,
-        "quantity": 479,
-        "quality": 5,
-        "price": 4350.0,
+        "quantity": 1,
+        "quality": 0,
+        "price": 4300.0,
         "seller": {
-            "id": 1004362,
-            "company": "Cybran",
+            "id": 616801,
+            "company": "Hallertauer",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/2f92e002c462cd88979c1ed5025715bfcaaa257b.png",
-            "certificates": 3,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "20c095"
+            "ip": "0ac2dc"
         },
-        "posted": "2023-03-16T17:39:52.026946+00:00",
-        "fees": 0
+        "posted": "2023-03-17T06:54:07.268346+00:00",
+        "fees": 129
+    },
+    {
+        "id": 54937377,
+        "kind": 56,
+        "quantity": 250,
+        "quality": 4,
+        "price": 4340.0,
+        "seller": {
+            "id": 741260,
+            "company": "iLKiN HS HOLDiNG",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/616e688257ca55d6b6e60e619c7a2f9ad134345b.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "6cc336"
+        },
+        "posted": "2023-03-17T04:45:06.481148+00:00",
+        "fees": 32550
     },
     {
         "id": 54891986,
@@ -498,6 +658,26 @@
         },
         "posted": "2023-03-15T14:00:14.027782+00:00",
         "fees": 13200
+    },
+    {
+        "id": 54943123,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4400.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:23.291236+00:00",
+        "fees": 132
     },
     {
         "id": 54907793,
@@ -600,6 +780,106 @@
         "fees": 4050
     },
     {
+        "id": 54943128,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4500.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:30.268811+00:00",
+        "fees": 135
+    },
+    {
+        "id": 54943131,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4600.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:36.871199+00:00",
+        "fees": 138
+    },
+    {
+        "id": 54943141,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4700.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:49.132176+00:00",
+        "fees": 141
+    },
+    {
+        "id": 54943144,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4800.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:54:58.001720+00:00",
+        "fees": 144
+    },
+    {
+        "id": 54943147,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 4900.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:55:03.747788+00:00",
+        "fees": 147
+    },
+    {
         "id": 54796879,
         "kind": 56,
         "quantity": 10,
@@ -618,6 +898,26 @@
         },
         "posted": "2023-03-15T17:51:50.501950+00:00",
         "fees": 1348
+    },
+    {
+        "id": 54932441,
+        "kind": 56,
+        "quantity": 8,
+        "quality": 6,
+        "price": 4990.0,
+        "seller": {
+            "id": 2868300,
+            "company": "Dimasalang enterprises",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/4d0a8a9e4e427d80e838bdf0cd13c44a6a50f192.png",
+            "certificates": 0,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "e7d639"
+        },
+        "posted": "2023-03-17T02:04:54.702850+00:00",
+        "fees": 1198
     },
     {
         "id": 54763031,
@@ -640,24 +940,104 @@
         "fees": 150
     },
     {
-        "id": 54433732,
+        "id": 54943153,
         "kind": 56,
-        "quantity": 100,
-        "quality": 5,
-        "price": 5300.0,
+        "quantity": 1,
+        "quality": 2,
+        "price": 5000.0,
         "seller": {
-            "id": 1637549,
-            "company": "GLOBAL RESEARCH CENTRE",
+            "id": 616801,
+            "company": "Hallertauer",
             "realmId": 0,
-            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/36175e6620cf8ac8f7743751e819608b694f7d68.png",
-            "certificates": 3,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
             "contest_wins": 0,
             "npc": false,
             "courseId": null,
-            "ip": "fbfe7c"
+            "ip": "0ac2dc"
         },
-        "posted": "2023-03-09T16:02:46.035235+00:00",
-        "fees": 15900
+        "posted": "2023-03-17T06:55:10.700044+00:00",
+        "fees": 150
+    },
+    {
+        "id": 54943154,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 5100.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:55:18.330779+00:00",
+        "fees": 153
+    },
+    {
+        "id": 54943157,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 5200.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:55:25.571198+00:00",
+        "fees": 156
+    },
+    {
+        "id": 54943161,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 5300.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:55:32.421643+00:00",
+        "fees": 159
+    },
+    {
+        "id": 54943172,
+        "kind": 56,
+        "quantity": 1,
+        "quality": 2,
+        "price": 5325.0,
+        "seller": {
+            "id": 616801,
+            "company": "Hallertauer",
+            "realmId": 0,
+            "logo": "https://d1fxy698ilbz6u.cloudfront.net/logo/9dad7f04836fba60a6c8d053dc207f97034de90e.png",
+            "certificates": 2,
+            "contest_wins": 0,
+            "npc": false,
+            "courseId": null,
+            "ip": "0ac2dc"
+        },
+        "posted": "2023-03-17T06:55:58.032177+00:00",
+        "fees": 160
     },
     {
         "id": 54901056,

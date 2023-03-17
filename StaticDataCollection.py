@@ -266,7 +266,7 @@ def UpdateEncyclopedia():
         sortedRelFreqs = sorted(relativeFrequencies, key=lambda d: d['count'], reverse=True)
 
         maxCount = sortedRelFreqs[0]['count']
-        minTime = 20
+        minTime = 60
         power = 1
 
         for i in sortedRelFreqs:
