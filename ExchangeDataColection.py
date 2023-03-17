@@ -42,18 +42,41 @@ def TakeExchangeSnapshot(realm):
     resources_Dir = os.path.join(encyclopedia_Dir, "Resources")
 
     # Load a list of all product DB numbers that we search for in this realm.
-    f = open(os.path.join(resources_Dir, "Resource_List.json"), "r")
+    f = open(os.path.join(resources_Dir, "Exchange_Resource_List.json"), "r")
     resourceList = json.load(f)
     f.close()
 
     for resource in resourceList:
         t1 = time.time()
         name = resource['name']
-        # print(f"Starting {name}")
+        print(resource)
         product_DB_Num = resource["db_letter"]
         url = f"https://www.simcompanies.com/api/v3/market/{realmID}/{product_DB_Num}/"
         old_resource_path = os.path.join(exchange_Dir, "Previous", name + " Exchange Snapshot.json")
         new_resource_path = os.path.join(exchange_Dir, "Latest", name + " Exchange Snapshot.json")
+
+        try:
+            # We need to check the previous time we recorded this product and if it is within N seconds skip the product.
+            cur, con = generateDBConnection(realm)
+            cur.execute(f'SELECT latest, TargetFreq FROM frequencies WHERE productID = {product_DB_Num}')
+            res = cur.fetchall()
+            print(res)
+            prevTime = res[0][0]
+            targetFreq = res[0][1]
+            # None shows this product has not had a time recorded into the database. Probably the first time we are
+            # running this. Continue as normal
+            if prevTime != None:
+                timeDiff = time.time() - prevTime
+                if timeDiff < targetFreq:
+                    # print("No need to check",name,"for another",str(targetFreq-timeDiff)[:4],"seconds")
+                    # If the difference between the current time and the previous scan time is larger than target time,
+                    # skip this loop.
+                    continue
+                print("We should have checked",name, str(timeDiff-targetFreq)[:4], "seconds ago")
+        except Exception as e:
+            print(e)
+            print(res)
+            print("Unable to find a target time for",name)
 
         # Time to reference when creating a best estimate of the sale time/date of the product.
         newTime = int(time.time())
@@ -66,8 +89,6 @@ def TakeExchangeSnapshot(realm):
             saleTime = newTime
             pass
 
-        # TODO We need to check the previous time we recorded this product and if it is within N seconds skip the product.
-
         # Move the previous product snapshots into the 'previous' folder, overwriting the file already there.
         try:
             shutil.move(new_resource_path, old_resource_path)
@@ -75,7 +96,7 @@ def TakeExchangeSnapshot(realm):
             print(e)
 
         # Request data of filtered product list via DB number & save that data into 'latest'
-        print(url, name)
+        # print(url)
         t2 = time.time()
         try:
             response = requests.get(url)
@@ -241,10 +262,18 @@ def TakeExchangeSnapshot(realm):
             computeTime = completeTime - fetchTime
 
             print("Found", len(sales), "sales, took",str(completeTime)[:8] , "seconds.", str(fetchTime)[:8],"to get data,",str(computeTime)[:8],"to compute." )
-            print("")
+            # print("")
             time.sleep(0.2)
 
+        def UpdateFrequencies():
+            # Update the latest frequency we have searched this product.
+            cur, con = generateDBConnection(realm)
+            cur.execute(
+                f'UPDATE frequencies SET latest = {int(time.time())} WHERE ProductID = {product_DB_Num}')
+            con.commit()
+
         if len(sales) == 0:
+            UpdateFrequencies()
             reportAndSleep()
             # Skip writing to appending to the file as we have nothing to say!
             continue
@@ -266,6 +295,8 @@ def TakeExchangeSnapshot(realm):
         # CreateNewTable()
         for i in sales:
             appendRecordtoDatabase(i)
+
+        UpdateFrequencies()
 
 
         # Archived Code- doesn't use a database.
@@ -289,4 +320,3 @@ for i in range(200):
     print("Loop", i)
     TakeExchangeSnapshot("Entrepreneurs")
     TakeExchangeSnapshot("Magnates")
-    time.sleep(60)

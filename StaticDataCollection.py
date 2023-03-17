@@ -191,7 +191,7 @@ def UpdateEncyclopedia():
         # track their price). This function will be actively scanning the exchange for the prices.
         pass
 
-        # Load the resource which is out base reference from the server.
+        # Load the resource which is our base reference from the server.
         resources_path = os.path.join(resources_Dir, "Resource_List.json")
         f = open(resources_path)
         data = json.load(f)
@@ -206,7 +206,7 @@ def UpdateEncyclopedia():
                 exchangeProducts.append(resource)
 
         # Write the filtered results to it's own file.
-        path = os.path.join(exchange_Dir, "Magnates Realm","Exchange_Resource_List.json")
+        path = os.path.join(resources_Dir,"Exchange_Resource_List.json")
         json_object = json.dumps(exchangeProducts, indent=4)
         with open(path, "w") as outfile:
             outfile.write(json_object)
@@ -214,14 +214,13 @@ def UpdateEncyclopedia():
     def CreateEntrepeneurVersions():
         # Use the url to get a list of entrepeneur products and then filter other files to just these.
         url = "http://www.simcompanies.com/api/v4/en/1/encyclopedia/resources/"
-        # url = "http://www.google.com"
         data = requests.get(url)
         data = data.json()
-        valid_resources = [x["name"] for x in data]
+        valid_resources = [x["name"] for x in data if x['realmAvailable'] == True]
         print(valid_resources)
         # Directories we need to get files to filter from
 
-        f = open(os.path.join(resources_Dir,"Resource_List.json"), "r")
+        f = open(os.path.join(resources_Dir,"Exchange_Resource_List.json"), "r")
         allResources = json.load(f)
         f.close()
 
@@ -233,14 +232,14 @@ def UpdateEncyclopedia():
 
         print(len(entrepeneurResources))
         json_object = json.dumps(entrepeneurResources, indent=4)
-        entrepeneurResourcesPath = os.path.join(os.getcwd(), "Data", "Entrepreneurs Realm", "Encyclopedia","Resources","Resource_List.json")
+        entrepeneurResourcesPath = os.path.join(os.getcwd(), "Data", "Entrepreneurs Realm", "Encyclopedia","Resources","Exchange_Resource_List.json")
         with open(entrepeneurResourcesPath, "w") as outfile:
             outfile.write(json_object)
 
     def CalculateEndpointFrequencies(realm):
 
         # Load our list of all resources
-        path = os.path.join(resources_Dir,"Resource_List.json")
+        path = os.path.join(resources_Dir,"Exchange_Resource_List.json")
         f = open(path)
         data = json.load(f)
         f.close()
@@ -267,17 +266,21 @@ def UpdateEncyclopedia():
         sortedRelFreqs = sorted(relativeFrequencies, key=lambda d: d['count'], reverse=True)
 
         maxCount = sortedRelFreqs[0]['count']
-        minTime = 5
-
+        minTime = 20
+        power = 1
 
         for i in sortedRelFreqs:
             if i['count'] == 0:
                 i['TargetFreq'] = 999999999
                 continue
-            i['TargetFreq'] = (((minTime*maxCount/i['count'])-minTime)*0.8)+minTime
+            i['TargetFreq'] = int((((minTime*maxCount/i['count'])-minTime)*power)+minTime)
             cur, con = generateDBConnection(realm)
-            cur.execute(
-                'INSERT INTO frequencies (ProductID,TargetFreq,count,summed) VALUES (?,?,?,?)',(i['ProductID'],i['TargetFreq'],i['count'],i['summed']))
+
+            cur.execute(f'UPDATE frequencies SET TargetFreq = {i["TargetFreq"]} WHERE ProductID = {i["ProductID"]}')
+            # First time init
+            # cur.execute('INSERT INTO frequencies (ProductID,TargetFreq,count,summed) VALUES (?,?,?,?)',
+            # (i['ProductID'],i['TargetFreq'],i['count'],i['summed']))
+
             con.commit()
 
 
