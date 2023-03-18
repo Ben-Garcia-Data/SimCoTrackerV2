@@ -145,6 +145,14 @@ def TakeExchangeSnapshot(realm):
         # TODO-- Add in something which will filter out products that have been removed but
         #  lower price & quality products haven't1, indicating manual removals.
         #
+        # Create a dict with a key for each Q (if not exist, none found & skip. Q0-14. Have highest Q be a var. For
+        # each entry we go thru, if sale = false, then we know that nothing of the same Q should have sold at higher
+        # price. It is possible they sold at same  price THEN: if price < currently in dict for relevant Q,
+        # set dict price to unsold price. At end of program itterate thru sales & if any are > unsol price,
+        # we know they were manually removed.
+
+
+
 
         # These are all debug bits. helping to make this algo more efficent.
         # countA = 0
